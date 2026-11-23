@@ -1,0 +1,8 @@
+status,id,question,men,women
+Frozen,Thesis,Does a trend describe play better than a single ball?,Yes,Yes
+Frozen,RQ1,Does team momentum carry forward as streaks?,No (form on the day),No (form on the day)
+Frozen,RQ2,"Is model momentum better than scoreboard momentum, especially in chases?",Yes,Yes
+Frozen,RQ3,Do coaching decisions change momentum (PSM)?,No effect found,No effect found
+Frozen,RQ4,Do men and women differ?,No significant difference,No significant difference
+Fresh data,H5,Do batters run hot over 5 balls?,Confirmed (T20 Blast),Confirmed (English T20)
+Exploratory,Drivers,"What moves momentum, 1st innings v chase?",Wickets in 1st innings; dots and singles in chases,Same pattern; fours lead

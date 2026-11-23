@@ -1,0 +1,125 @@
+Men phase-specialist test: {'bowlers': 44, 'spread_observed': 0.1302, 'spread_shuffled': 0.1497, 'p': 0.8663, 'corr_first_last': 0.1101}
+Women phase-specialist test: {'bowlers': 42, 'spread_observed': 0.1483, 'spread_shuffled': 0.132, 'p': 0.1377, 'corr_first_last': -0.1905}
+   gender      innings          part  corr_with_winning        lo        hi  matches
+0     Men  1st innings    Balls 1–20           0.274248  0.136911  0.413093      157
+1     Men  1st innings   Balls 21–40           0.338728  0.211064  0.477734      157
+2     Men  1st innings   Balls 41–60           0.298183  0.156122  0.435079      157
+3     Men  1st innings   Balls 61–80           0.269713  0.130562  0.412732      157
+4     Men  1st innings  Balls 81–100           0.296263  0.161269  0.429122      157
+5     Men        Chase    Balls 1–20           0.342655  0.206669  0.457963      157
+6     Men        Chase   Balls 21–40           0.306896  0.182073  0.432512      157
+7     Men        Chase   Balls 41–60           0.421108  0.318321  0.521427      156
+8     Men        Chase   Balls 61–80           0.347500  0.227323  0.466895      153
+9     Men        Chase  Balls 81–100           0.529532  0.459043  0.590661      138
+10  Women  1st innings    Balls 1–20           0.389867  0.255194  0.511899      148
+11  Women  1st innings   Balls 21–40           0.309509  0.168743  0.447405      148
+12  Women  1st innings   Balls 41–60           0.388942  0.259767  0.512935      148
+13  Women  1st innings   Balls 61–80           0.291741  0.144946  0.424836      148
+14  Women  1st innings  Balls 81–100           0.394941  0.258234  0.517969      148
+15  Women        Chase    Balls 1–20           0.371628  0.221712  0.493649      148
+16  Women        Chase   Balls 21–40           0.283516  0.136857  0.430501      148
+17  Women        Chase   Balls 41–60           0.244907  0.088725  0.396050      147
+18  Women        Chase   Balls 61–80           0.335928  0.199543  0.461421      143
+19  Women        Chase  Balls 81–100           0.549504  0.468672  0.618753      126
+   gender                                        event      innings     n  momentum_after        lo        hi
+0     Men              After a four or six (next ball)  1st innings  2836       -0.004667 -0.051969  0.040164
+1     Men              After a four or six (next ball)        Chase  2645        0.029272 -0.015827  0.070834
+2     Men    After two boundaries in a row (next ball)  1st innings   573        0.080595 -0.011956  0.172272
+3     Men    After two boundaries in a row (next ball)        Chase   543        0.070755 -0.049920  0.194250
+4     Men                      After a six (next ball)  1st innings   974        0.024039 -0.056899  0.098446
+5     Men                      After a six (next ball)        Chase   845        0.114623  0.028608  0.205087
+6     Men                After a wicket (next 5 balls)  1st innings   886       -0.002550 -0.024877  0.018826
+7     Men                After a wicket (next 5 balls)        Chase   810        0.019230 -0.023601  0.059852
+8     Men                     After a wide (next ball)  1st innings   529        0.056237 -0.033095  0.140449
+9     Men                     After a wide (next ball)        Chase   498       -0.021557 -0.109825  0.067453
+10    Men    After a no-ball: the free hit (next ball)  1st innings   100        0.317100  0.132127  0.501824
+11    Men    After a no-ball: the free hit (next ball)        Chase   107        0.142624 -0.048650  0.351957
+12    Men        A bowler's first 5 balls of the match  1st innings  1003       -0.000291 -0.034809  0.036412
+13    Men        A bowler's first 5 balls of the match        Chase   982        0.003333 -0.017211  0.024019
+14    Men  A bowler's back-to-back set (first 5 balls)  1st innings   196       -0.039612 -0.100641  0.020088
+15    Men  A bowler's back-to-back set (first 5 balls)        Chase   211        0.001109 -0.065676  0.063439
+16    Men                 A new batter's first 5 balls  1st innings  1245       -0.018252 -0.041511  0.005859
+17    Men                 A new batter's first 5 balls        Chase  1174        0.013614 -0.017228  0.045784
+18    Men            First 5 balls after the powerplay  1st innings   163       -0.041362 -0.118784  0.032007
+19    Men            First 5 balls after the powerplay        Chase   165        0.018662 -0.027383  0.063273
+20    Men                  Last 5 balls of the innings  1st innings   159        0.050018 -0.013371  0.113332
+21    Men                  Last 5 balls of the innings        Chase    68       -0.175312 -0.458998  0.135293
+22  Women              After a four or six (next ball)  1st innings  2371        0.011504 -0.028146  0.050594
+23  Women              After a four or six (next ball)        Chase  2177        0.001052 -0.039001  0.044144
+24  Women    After two boundaries in a row (next ball)  1st innings   385       -0.008487 -0.135051  0.106607
+25  Women    After two boundaries in a row (next ball)        Chase   386        0.036863 -0.052259  0.138208
+26  Women                      After a six (next ball)  1st innings   281        0.109592 -0.037450  0.247749
+27  Women                      After a six (next ball)        Chase   250        0.033725 -0.088042  0.168701
+28  Women                After a wicket (next 5 balls)  1st innings   826       -0.001847 -0.031264  0.026060
+29  Women                After a wicket (next 5 balls)        Chase   740       -0.019371 -0.054672  0.019519
+30  Women                     After a wide (next ball)  1st innings   437        0.049477 -0.027875  0.125602
+31  Women                     After a wide (next ball)        Chase   380       -0.037408 -0.128064  0.053922
+32  Women    After a no-ball: the free hit (next ball)  1st innings    80        0.348043  0.073826  0.613265
+33  Women    After a no-ball: the free hit (next ball)        Chase    73        0.199228 -0.040554  0.493268
+34  Women        A bowler's first 5 balls of the match  1st innings   969        0.004902 -0.027298  0.038909
+35  Women        A bowler's first 5 balls of the match        Chase   953       -0.008529 -0.032525  0.014191
+36  Women  A bowler's back-to-back set (first 5 balls)  1st innings   135       -0.049120 -0.138356  0.039383
+37  Women  A bowler's back-to-back set (first 5 balls)        Chase   135        0.071365  0.011378  0.130988
+38  Women                 A new batter's first 5 balls  1st innings  1170       -0.007381 -0.037148  0.021652
+39  Women                 A new batter's first 5 balls        Chase  1083       -0.011560 -0.042358  0.021803
+40  Women            First 5 balls after the powerplay  1st innings   154        0.030702 -0.043435  0.103176
+41  Women            First 5 balls after the powerplay        Chase   156       -0.041036 -0.089999  0.004416
+42  Women                  Last 5 balls of the innings  1st innings   148        0.093715  0.032134  0.159823
+43  Women                  Last 5 balls of the innings        Chase    60       -0.114189 -0.383320  0.137207
+   gender                                 condition      n  boundary_rate  expected    excess        lo        hi
+0     Men                          After a boundary   5481       0.206532  0.201844  0.004687 -0.007412  0.016068
+1     Men                         After no boundary  25933       0.170516  0.172522 -0.002006 -0.007649  0.003818
+2     Men                      After two boundaries   1116       0.221326  0.216716  0.004610 -0.023297  0.029397
+3     Men             After a boundary, same bowler   3386       0.215298  0.204654  0.010644 -0.003633  0.024321
+4     Men              After a boundary, new bowler   2095       0.192363  0.197303 -0.004940 -0.022756  0.012835
+5     Men                  After a boundary, v spin   1521       0.186719  0.180740  0.005979 -0.016134  0.026795
+6     Men                  After a boundary, v pace   3882       0.214838  0.210709  0.004128 -0.008598  0.016204
+7     Men  After a boundary, set batter (10+ balls)   2789       0.212621  0.203215  0.009406 -0.009335  0.025326
+8     Men   After a boundary, batter under 10 balls   2692       0.200223  0.200425 -0.000202 -0.015713  0.014174
+9     Men               After a boundary, powerplay   1673       0.248655  0.238943  0.009712 -0.010424  0.029475
+10    Men             After a boundary, death (76+)   1398       0.217454  0.217952 -0.000499 -0.023547  0.021580
+11  Women                          After a boundary   4548       0.174802  0.174072  0.000730 -0.011036  0.013518
+12  Women                         After no boundary  25021       0.152352  0.152799 -0.000447 -0.005478  0.004520
+13  Women                      After two boundaries    771       0.194553  0.186647  0.007906 -0.021740  0.038809
+14  Women             After a boundary, same bowler   2784       0.179239  0.177024  0.002214 -0.012512  0.017293
+15  Women              After a boundary, new bowler   1764       0.167800  0.169413 -0.001613 -0.019142  0.016562
+16  Women                  After a boundary, v spin   2157       0.157163  0.168727 -0.011564 -0.028537  0.006895
+17  Women                  After a boundary, v pace   2391       0.190715  0.178894  0.011821 -0.002604  0.027355
+18  Women  After a boundary, set batter (10+ balls)   2487       0.179735  0.182527 -0.002793 -0.017893  0.012881
+19  Women   After a boundary, batter under 10 balls   2061       0.168850  0.163869  0.004981 -0.011972  0.022955
+20  Women               After a boundary, powerplay   1354       0.200148  0.193468  0.006680 -0.015494  0.029910
+21  Women             After a boundary, death (76+)   1025       0.205854  0.182863  0.022990 -0.001647  0.049655
+part_label   Balls 1–20  Balls 21–40  Balls 41–60  Balls 61–80  Balls 81–100
+gender kind                                                                 
+Men    pace       0.060       -0.013        0.006       -0.035        -0.057
+       spin      -0.110        0.045        0.040       -0.010        -0.062
+Women  pace       0.018       -0.034       -0.029       -0.036        -0.054
+       spin      -0.028       -0.014        0.021        0.042        -0.028
+Men better early than late:
+      bowler kind  balls_first20  balls_last20  saved_first20  saved_last20
+ MP Stoinis pace           70.0          52.0          0.236        -0.060
+    S Baker pace          100.0          64.0          0.065        -0.226
+   MG Hogan pace           40.0          40.0          0.094        -0.164
+    CP Wood pace          105.0          85.0          0.211        -0.042
+JA Thompson pace           65.0         115.0          0.107        -0.135
+Men better late than early:
+     bowler kind  balls_first20  balls_last20  saved_first20  saved_last20
+Imad Wasim spin           55.0          25.0          0.022         0.109
+ SA Abbott pace           35.0          34.0         -0.010         0.083
+  TA Boult pace          165.0          59.0          0.002         0.142
+  OP Stone pace           55.0          25.0          0.008         0.173
+RJW Topley pace          140.0          60.0         -0.172         0.082
+Women better early than late:
+       bowler kind  balls_first20  balls_last20  saved_first20  saved_last20
+A Stonehouse pace          185.0          30.0          0.098        -0.275
+    EA Burns spin           30.0          35.0          0.095        -0.232
+   EL Arlott pace           25.0         144.0          0.206        -0.094
+    KJ Garth pace          140.0          60.0          0.209        -0.083
+ HK Matthews spin           70.0         102.0          0.085        -0.127
+Women better late than early:
+    bowler kind  balls_first20  balls_last20  saved_first20  saved_last20
+FR Davies pace          135.0         146.0         -0.052         0.107
+ KH Brunt pace           40.0          25.0         -0.093         0.085
+KA Levick spin           25.0          79.0         -0.043         0.148
+IECM Wong pace          140.0          65.0         -0.037         0.178
+ C Pavely spin           40.0          35.0         -0.170         0.090

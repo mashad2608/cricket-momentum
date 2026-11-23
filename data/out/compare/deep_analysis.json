@@ -1,0 +1,20 @@
+{
+ "male": {
+  "specialist_test": {
+   "bowlers": 44,
+   "spread_observed": 0.13024549559411727,
+   "spread_shuffled": 0.14968406568207376,
+   "p": 0.8662674650698603,
+   "corr_first_last": 0.1100610261345001
+  }
+ },
+ "female": {
+  "specialist_test": {
+   "bowlers": 42,
+   "spread_observed": 0.1483281821074462,
+   "spread_shuffled": 0.1320003579497073,
+   "p": 0.1377245508982036,
+   "corr_first_last": -0.19046091220324676
+  }
+ }
+}

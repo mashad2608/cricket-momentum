@@ -1,0 +1,24 @@
+RQ4:
+                               test       men                                       men_ci     women                                     women_ci      diff                                      diff_ci                               men_status                             women_status                      verdict
+         RQ1 slope, 10-ball, pooled  0.082377     (0.032060666412658, 0.13138081263854479)  0.057115  (0.006790307673962369, 0.10862942541891128) -0.025261  (-0.09638721710266421, 0.04586501433642817)                                      NaN                                      NaN                    confirmed
+      RQ1 slope, 10-ball, innings 1  0.067045   (0.01187775024939525, 0.12269612468891855)  0.020718  (-0.03870581309377803, 0.07910152844537788) -0.046327 (-0.12719635903949242, 0.034541953780759665)                                      NaN                                      NaN    not confirmed: women null
+      RQ1 slope, 10-ball, innings 2  0.105646   (0.00645963759121108, 0.20094770495146608)  0.120929   (0.019927588860717507, 0.2325106394557754)  0.015282  (-0.12878104846101868, 0.15934594046197004)                                      NaN                                      NaN                    confirmed
+          RQ1 slope, 5-ball, pooled  0.046280  (0.007344126284590477, 0.08383482580517337)  0.034850 (-0.007028756725836969, 0.07607796485250946) -0.011430 (-0.06790419635511125, 0.045045147532531124)                                      NaN                                      NaN    not confirmed: women null
+       RQ1 slope, 5-ball, innings 1  0.033544 (-0.006800778626818484, 0.07264032494759982)  0.021928  (-0.01567647042909736, 0.06032837754042741) -0.011616  (-0.06658750723164966, 0.04335623225356173)                                      NaN                                      NaN    not confirmed: women null
+       RQ1 slope, 5-ball, innings 2  0.062334 (-0.013518808467301871, 0.13498928204498592)  0.053903  (-0.03695465339626714, 0.13951822103780168) -0.008431  (-0.12375363222659455, 0.10689182807693817)                                      NaN                                      NaN    not confirmed: women null
+                            RQ2 H2a  0.124006    (0.1056105928833723, 0.14136681000686274)  0.105978    (0.08852118432827727, 0.1229442745488946) -0.018028 (-0.04284476413936795, 0.006788452594176049)                                      NaN                                      NaN                    confirmed
+                            RQ2 H2b  0.050642  (0.028604095921778486, 0.07344940550142881)  0.037743 (0.012939303448435215, 0.062009936946506465) -0.012899 (-0.04613692429059839, 0.020338852223833623)                                      NaN                                      NaN                    confirmed
+        RQ3 D1 keep v change bowler       NaN                                 (None, None)       NaN                                 (None, None)       NaN                                         None not estimable (too few units or matches) not estimable (too few units or matches) not estimable in one or both
+        RQ3 D2 ten straight v split -0.246297    (-0.6831787680894629, 0.3523641041631248) -0.411283   (-0.9515807177705611, 0.31818937960461896) -0.164986     (-0.984233528389266, 0.6542612505042502)           not estimable (balance failed)           not estimable (balance failed) not estimable in one or both
+RQ3 D3 fresh bowler after hot spell  0.194028   (-0.26921196712977213, 0.6360374587805437) -0.212630     (-1.028312020174111, 0.1474034515350171) -0.406658   (-1.1485783286216718, 0.33526242884766466)                                estimable                                estimable    not confirmed: women null
+         RQ3 D4 promoted big hitter       NaN                                 (None, None)       NaN                                 (None, None)       NaN                                         None not estimable (too few units or matches) not estimable (too few units or matches) not estimable in one or both
+TRANSFER: {
+ "women_own_model_logloss": 1.418555647766185,
+ "men_model_on_women_logloss": 1.4339911296592691,
+ "wicket_rate_actual": 0.059991295905727965,
+ "wicket_rate_men_model": 0.06143180494556975,
+ "wicket_rate_women_model": 0.05903832696998389,
+ "boundary_rate_actual": 0.15533460547018849,
+ "boundary_rate_men_model": 0.16531163059333726,
+ "boundary_rate_women_model": 0.1557705332381729
+}

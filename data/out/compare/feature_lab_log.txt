@@ -1,0 +1,46 @@
+  male + history: {'logloss': 1.4935134895476254, 'diff': -0.0014248874038575924, 'lo': -0.002328527106984295, 'hi': -0.0005496828038645138, 'n_features': 79}
+  male + conditions: {'logloss': 1.4954213710141313, 'diff': 0.00048299406264817115, 'lo': -1.4048390916096049e-06, 'hi': 0.0009652081892421191, 'n_features': 62}
+  male + combinations: {'logloss': 1.4936948491807778, 'diff': -0.0012435277707056173, 'lo': -0.0017480769737730048, 'hi': -0.000727307460056211, 'n_features': 63}
+  male + history + conditions: {'logloss': 1.4939301232817683, 'diff': -0.0010082536697150037, 'lo': -0.001958308748022543, 'hi': -7.771329545520793e-05, 'n_features': 94}
+  male + all three: {'logloss': 1.4933762454614181, 'diff': -0.0015621314900648186, 'lo': -0.002545501889515014, 'hi': -0.000571800965931367, 'n_features': 110}
+  male top interactions:
+  target                 a                  b  strength
+boundary           ball_no wkts_per_ball_left  0.023917
+boundary         score_pre wkts_per_ball_left  0.015600
+boundary           ball_no          bat_balls  0.012225
+boundary           ball_no          score_pre  0.011577
+boundary batkind_edge_runs  combo_bnd_matchup  0.010025
+boundary   bowlph_hist_bnd         part_balls  0.007831
+boundary           ball_no          part_runs  0.006464
+boundary        balls_left          score_pre  0.006295
+  wicket      ext_bowl_dot            wx_wind  0.013588
+  wicket      form_vs_hist        ext_bat_out  0.012060
+  wicket       battype_out  combo_bnd_matchup  0.010308
+  wicket           ball_no            wx_temp  0.009368
+  wicket       ext_bat_out  combo_out_matchup  0.008192
+  wicket       batkind_bnd  combo_bnd_matchup  0.008014
+  wicket           ball_no wkts_per_ball_left  0.007696
+  wicket       last10_runs wkts_per_ball_left  0.007542
+  female + history: {'logloss': 1.4141996999410655, 'diff': -0.0009314354288955891, 'lo': -0.0018986991911340402, 'hi': 7.799050365150373e-05, 'n_features': 80}
+  female + conditions: {'logloss': 1.4165251157588605, 'diff': 0.001393980388899124, 'lo': 0.0008185479503354651, 'hi': 0.0020244979535017564, 'n_features': 63}
+  female + combinations: {'logloss': 1.4148345094409218, 'diff': -0.00029662592903972315, 'lo': -0.0009368207270136014, 'hi': 0.000380390589971886, 'n_features': 64}
+  female + history + conditions: {'logloss': 1.4145088092573572, 'diff': -0.0006223261126044394, 'lo': -0.0015632699318056643, 'hi': 0.0003531154333909365, 'n_features': 95}
+  female + all three: {'logloss': 1.4145704152149323, 'diff': -0.0005607201550291212, 'lo': -0.001603733693416243, 'hi': 0.000489630648018378, 'n_features': 111}
+  female top interactions:
+  target                  a                    b  strength
+boundary            ball_no   wkts_per_ball_left  0.013230
+boundary     batph_hist_bnd     venue_season_rpb  0.009316
+boundary            ball_no            bat_balls  0.008875
+boundary            ball_no           bat_dots10  0.008368
+boundary    bowlph_hist_dot   wkts_per_ball_left  0.007395
+boundary            ball_no       batph_hist_bnd  0.006903
+boundary          bat_balls             h2h_runs  0.006684
+boundary            ball_no            part_runs  0.006418
+  wicket            ball_no           bowl_balls  0.012390
+  wicket wkts_per_ball_left          wx_humidity  0.009752
+  wicket        ext_bat_out         batvenue_bnd  0.009696
+  wicket            ball_no   wkts_per_ball_left  0.009315
+  wicket            ball_no    combo_out_matchup  0.009288
+  wicket            ball_no            ext_bat_n  0.009165
+  wicket           req_rate combo_chase_pressure  0.007815
+  wicket          bat_balls            ext_bat_n  0.007527

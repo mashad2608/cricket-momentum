@@ -1,0 +1,5 @@
+,status,n_units,n_treated,att,n_control,matched,share_matched,max_abs_smd,balanced,ess_controls,max_control_use,att_value_inn1,att_value_inn2,att_wkts,lo,hi,p,n_boot,evalue,evalue_ci,p_holm
+D1 keep v change bowler,not estimable (too few units or matches),1003,5,,,,,,,,,,,,,,,,,,
+D2 ten straight v split,not estimable (balance failed),,167,-0.4112828711130542,1501,157,0.9401197604790419,0.24392639733887167,False,70.62750716332378,5,,,0.03821656050955414,-0.9515807177705611,0.31818937960461896,0.416,500,1.656514069055326,1.0,
+D3 fresh bowler after hot spell,estimable,,1211,-0.21263017557550512,141,648,0.5350949628406276,0.06524356678053377,True,131.13803872579638,5,,,-0.032407407407407406,-1.028312020174111,0.1474034515350171,0.2,500,1.3472660029949182,1.0,0.2
+D4 promoted big hitter,not estimable (too few units or matches),377,12,,,,,,,,,,,,,,,,,,

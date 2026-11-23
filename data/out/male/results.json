@@ -1,0 +1,492 @@
+{
+ "HT": [
+  {
+   "innings": 1,
+   "window": 1,
+   "n": 16474,
+   "R2_descriptive": 0.035305220582142915,
+   "R2_forecast": 0.023497692139000992,
+   "n_forecast": 16474
+  },
+  {
+   "innings": 1,
+   "window": 5,
+   "n": 3230,
+   "R2_descriptive": 0.17276377468872828,
+   "R2_forecast": 0.026837394939826287,
+   "n_forecast": 3230
+  },
+  {
+   "innings": 1,
+   "window": 10,
+   "n": 1584,
+   "R2_descriptive": 0.24893532268443164,
+   "R2_forecast": 0.04255720897397697,
+   "n_forecast": 1584
+  },
+  {
+   "innings": 1,
+   "window": 20,
+   "n": 789,
+   "R2_descriptive": 0.32892971316543096,
+   "R2_forecast": 0.014861592778917965,
+   "n_forecast": 789
+  },
+  {
+   "innings": 1,
+   "window": 50,
+   "n": 312,
+   "R2_descriptive": 0.3968140172527146,
+   "R2_forecast": 0.04727452587890668,
+   "n_forecast": 312
+  },
+  {
+   "innings": 1,
+   "window": 100,
+   "n": 153,
+   "R2_descriptive": 0.4043076080936221,
+   "R2_forecast": -0.09001351460701423,
+   "n_forecast": 120
+  },
+  {
+   "innings": 2,
+   "window": 1,
+   "n": 15258,
+   "R2_descriptive": 0.020278059150771854,
+   "R2_forecast": 0.002239903300984336,
+   "n_forecast": 15258
+  },
+  {
+   "innings": 2,
+   "window": 5,
+   "n": 2985,
+   "R2_descriptive": 0.10857741282627831,
+   "R2_forecast": -0.02835708811769999,
+   "n_forecast": 2985
+  },
+  {
+   "innings": 2,
+   "window": 10,
+   "n": 1455,
+   "R2_descriptive": 0.16664004042939484,
+   "R2_forecast": -0.07120510229112287,
+   "n_forecast": 1455
+  },
+  {
+   "innings": 2,
+   "window": 20,
+   "n": 701,
+   "R2_descriptive": 0.2149109463338763,
+   "R2_forecast": -0.0822621647091295,
+   "n_forecast": 701
+  },
+  {
+   "innings": 2,
+   "window": 50,
+   "n": 240,
+   "R2_descriptive": 0.24221204638446714,
+   "R2_forecast": -0.02060162848143321,
+   "n_forecast": 240
+  },
+  {
+   "innings": 2,
+   "window": 100,
+   "n": 82,
+   "R2_descriptive": 0.25457570502702664,
+   "R2_forecast": 0.2733083924055181,
+   "n_forecast": 65
+  }
+ ],
+ "RQ1": [
+  {
+   "window": 10,
+   "sample": "pooled",
+   "n": 2721,
+   "slope": 0.08237656464652456,
+   "lo": 0.032060666412658,
+   "hi": 0.13138081263854479,
+   "spearman": 0.07790943037681833,
+   "shuffle_p": 0.6003996003996004,
+   "shuffle_null_mean": 0.08735875529009407,
+   "H1_supported": false
+  },
+  {
+   "window": 10,
+   "sample": "innings 1",
+   "n": 1425,
+   "slope": 0.06704473711159732,
+   "lo": 0.01187775024939525,
+   "hi": 0.12269612468891855,
+   "spearman": 0.07480838246869202,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  },
+  {
+   "window": 10,
+   "sample": "innings 2",
+   "n": 1296,
+   "slope": 0.10564626191311959,
+   "lo": 0.00645963759121108,
+   "hi": 0.20094770495146608,
+   "spearman": 0.0768194838742256,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  },
+  {
+   "window": 5,
+   "sample": "pooled",
+   "n": 5897,
+   "slope": 0.04627973816619638,
+   "lo": 0.007344126284590477,
+   "hi": 0.08383482580517337,
+   "spearman": 0.07273455067775864,
+   "shuffle_p": 0.4595404595404595,
+   "shuffle_null_mean": 0.044769519537440024,
+   "H1_supported": false
+  },
+  {
+   "window": 5,
+   "sample": "innings 1",
+   "n": 3071,
+   "slope": 0.03354376754198899,
+   "lo": -0.006800778626818484,
+   "hi": 0.07264032494759982,
+   "spearman": 0.0638734871146705,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  },
+  {
+   "window": 5,
+   "sample": "innings 2",
+   "n": 2826,
+   "slope": 0.06233353153081372,
+   "lo": -0.013518808467301871,
+   "hi": 0.13498928204498592,
+   "spearman": 0.0818035525531824,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  }
+ ],
+ "RQ2": {
+  "H2a": {
+   "disagree_inn1": 0.11038391471560624,
+   "disagree_inn2": 0.2343899389571229,
+   "diff": 0.12400602424151666,
+   "lo": 0.1056105928833723,
+   "hi": 0.14136681000686274
+  },
+  "H2b": {
+   "rho_model": 0.07790943037681833,
+   "rho_scoreboard": 0.027266982033091962,
+   "diff": 0.050642448343726366,
+   "lo": 0.028604095921778486,
+   "hi": 0.07344940550142881
+  }
+ },
+ "RQ3": {
+  "D1 keep v change bowler": {
+   "status": "not estimable (too few units or matches)",
+   "n_units": 1569,
+   "n_treated": 20
+  },
+  "D2 ten straight v split": {
+   "att": -0.24629673217054632,
+   "n_treated": 207,
+   "n_control": 1521,
+   "matched": 206,
+   "share_matched": 0.9951690821256038,
+   "max_abs_smd": 0.15046642919991546,
+   "balanced": false,
+   "ess_controls": 134.29113924050634,
+   "max_control_use": 4,
+   "att_value_inn1": NaN,
+   "att_value_inn2": NaN,
+   "att_wkts": 0.038834951456310676,
+   "_smd": {
+    "innings2": -0.097,
+    "ball_no": -0.085,
+    "balls_left": 0.085,
+    "wkts_pre": -0.068,
+    "score_pre": -0.089,
+    "runs_needed": -0.038,
+    "rate_gap": -0.008,
+    "bat_hist_runs": -0.047,
+    "bat_hist_bnd": -0.093,
+    "bat_hist_dot": -0.067,
+    "bat_hist_wkt": -0.033,
+    "venue_hist_runs": -0.065,
+    "season_hist_runs": 0.026,
+    "mom_start": -0.062,
+    "bowl_hist_runs": 0.058,
+    "bowl_hist_wkt": 0.15,
+    "first_set_runs": 0.03,
+    "first_set_wkts": 0.026
+   },
+   "lo": -0.6831787680894629,
+   "hi": 0.3523641041631248,
+   "p": 0.508,
+   "n_boot": 500,
+   "evalue": 1.4540864296740441,
+   "evalue_ci": 1.0,
+   "status": "not estimable (balance failed)"
+  },
+  "D3 fresh bowler after hot spell": {
+   "att": 0.1940277743114984,
+   "n_treated": 1236,
+   "n_control": 240,
+   "matched": 945,
+   "share_matched": 0.7645631067961165,
+   "max_abs_smd": 0.07571708824071913,
+   "balanced": true,
+   "ess_controls": 201.54028436018956,
+   "max_control_use": 5,
+   "att_value_inn1": NaN,
+   "att_value_inn2": NaN,
+   "att_wkts": -0.13544973544973546,
+   "_smd": {
+    "innings2": -0.022,
+    "ball_no": 0.006,
+    "balls_left": -0.006,
+    "wkts_pre": -0.004,
+    "score_pre": 0.014,
+    "runs_needed": 0.003,
+    "rate_gap": 0.041,
+    "bat_hist_runs": 0.068,
+    "bat_hist_bnd": 0.076,
+    "bat_hist_dot": -0.015,
+    "bat_hist_wkt": 0.036,
+    "venue_hist_runs": 0.005,
+    "season_hist_runs": 0.028,
+    "mom_start": 0.067,
+    "set_runs": 0.039,
+    "out_bowl_hist_runs": -0.006,
+    "out_bowl_hist_wkt": -0.008,
+    "out_bowl_balls": -0.004
+   },
+   "lo": -0.26921196712977213,
+   "hi": 0.6360374587805437,
+   "p": 0.528,
+   "n_boot": 500,
+   "evalue": 1.3242594179503966,
+   "evalue_ci": 1.0,
+   "status": "estimable",
+   "p_holm": 0.528
+  },
+  "D4 promoted big hitter": {
+   "status": "not estimable (too few units or matches)",
+   "n_units": 387,
+   "n_treated": 5
+  }
+ },
+ "SHAP": {
+  "groups": {
+   "ball_in_set": [
+    "ball_in_set"
+   ],
+   "ball_no (+4)": [
+    "ball_no",
+    "balls_left",
+    "runs_needed",
+    "score_pre",
+    "wkts_per_ball_left"
+   ],
+   "bat_balls (+1)": [
+    "bat_balls",
+    "bat_runs"
+   ],
+   "bat_death_hist_bnd": [
+    "bat_death_hist_bnd"
+   ],
+   "bat_death_hist_dot": [
+    "bat_death_hist_dot"
+   ],
+   "bat_hist_bnd": [
+    "bat_hist_bnd"
+   ],
+   "bat_sr10 (+1)": [
+    "bat_sr10",
+    "form_vs_hist"
+   ],
+   "batph_hist_balls": [
+    "batph_hist_balls"
+   ],
+   "batph_hist_bnd": [
+    "batph_hist_bnd"
+   ],
+   "batph_hist_dot": [
+    "batph_hist_dot"
+   ],
+   "bowl_balls (+1)": [
+    "bowl_balls",
+    "bowler_set_no"
+   ],
+   "bowl_dots10": [
+    "bowl_dots10"
+   ],
+   "bowl_hist_dot": [
+    "bowl_hist_dot"
+   ],
+   "bowl_wkts": [
+    "bowl_wkts"
+   ],
+   "bowlph_hist_bnd": [
+    "bowlph_hist_bnd"
+   ],
+   "chase_target": [
+    "chase_target"
+   ],
+   "consecutive_set": [
+    "consecutive_set"
+   ],
+   "free_hit": [
+    "free_hit"
+   ],
+   "innings2": [
+    "innings2"
+   ],
+   "last10_runs": [
+    "last10_runs"
+   ],
+   "last10_wkt": [
+    "last10_wkt"
+   ],
+   "last20_bnd": [
+    "last20_bnd"
+   ],
+   "last20_dot": [
+    "last20_dot"
+   ],
+   "last20_wkt": [
+    "last20_wkt"
+   ],
+   "last5_dot": [
+    "last5_dot"
+   ],
+   "last5_wkt": [
+    "last5_wkt"
+   ],
+   "matchup_runs": [
+    "matchup_runs"
+   ],
+   "new_batter": [
+    "new_batter"
+   ],
+   "part_balls (+2)": [
+    "part_balls",
+    "part_runs",
+    "since_wicket"
+   ],
+   "powerplay": [
+    "powerplay"
+   ],
+   "prev_runs": [
+    "prev_runs"
+   ],
+   "rate_gap (+1)": [
+    "rate_gap",
+    "req_rate"
+   ],
+   "season_hist_runs": [
+    "season_hist_runs"
+   ],
+   "season_hist_wkt": [
+    "season_hist_wkt"
+   ],
+   "venue_hist_bnd": [
+    "venue_hist_bnd"
+   ],
+   "venue_hist_dot": [
+    "venue_hist_dot"
+   ],
+   "wkts_pre": [
+    "wkts_pre"
+   ]
+  },
+  "shap": {
+   "wicket": {
+    "ball_no (+4)": 0.15675,
+    "part_balls (+2)": 0.05822,
+    "bat_balls (+1)": 0.01603,
+    "bat_sr10 (+1)": 0.05241,
+    "venue_hist_bnd": 0.00281,
+    "rate_gap (+1)": 0.06289,
+    "bowlph_hist_bnd": 0.01629,
+    "batph_hist_bnd": 0.01598,
+    "last20_dot": 0.00149,
+    "matchup_runs": 0.00578,
+    "last20_wkt": 0.00229,
+    "powerplay": 0.0,
+    "batph_hist_balls": 0.0265,
+    "bat_hist_bnd": 0.01084,
+    "bat_death_hist_bnd": 0.0278
+   },
+   "boundary": {
+    "ball_no (+4)": 0.21295,
+    "part_balls (+2)": 0.19845,
+    "bat_balls (+1)": 0.15017,
+    "bat_sr10 (+1)": 0.14159,
+    "venue_hist_bnd": 0.07837,
+    "rate_gap (+1)": 0.06495,
+    "bowlph_hist_bnd": 0.06426,
+    "batph_hist_bnd": 0.0453,
+    "last20_dot": 0.02902,
+    "matchup_runs": 0.02259,
+    "last20_wkt": 0.01992,
+    "powerplay": 0.01985,
+    "batph_hist_balls": 0.0197,
+    "bat_hist_bnd": 0.01883,
+    "bat_death_hist_bnd": 0.01706
+   },
+   "dot": {
+    "ball_no (+4)": 0.18857,
+    "part_balls (+2)": 0.02655,
+    "bat_balls (+1)": 0.09416,
+    "bat_sr10 (+1)": 0.04487,
+    "venue_hist_bnd": 0.01372,
+    "rate_gap (+1)": 0.03016,
+    "bowlph_hist_bnd": 0.00175,
+    "batph_hist_bnd": 0.00223,
+    "last20_dot": 0.02475,
+    "matchup_runs": 0.00583,
+    "last20_wkt": 0.00063,
+    "powerplay": 0.0,
+    "batph_hist_balls": 0.00389,
+    "bat_hist_bnd": 0.00276,
+    "bat_death_hist_bnd": 0.00462
+   }
+  },
+  "ablation": [
+   {
+    "layer": "no features (base rates)",
+    "n_features": 0,
+    "cv_logloss": 1.5404795157206825
+   },
+   {
+    "layer": "match state",
+    "n_features": 13,
+    "cv_logloss": 1.5045215478694063
+   },
+   {
+    "layer": "+ player history",
+    "n_features": 26,
+    "cv_logloss": 1.5078726801418845
+   },
+   {
+    "layer": "+ recent form (all)",
+    "n_features": 47,
+    "cv_logloss": 1.4968598769792592
+   }
+  ],
+  "pdp_features": [
+   "ball_no",
+   "part_balls",
+   "bat_balls",
+   "bat_sr10"
+  ]
+ },
+ "hot_cut": 1.502856508073578
+}

@@ -1,0 +1,141 @@
+{
+ "male": {
+  "E1": {
+   "state + history + settledness": {
+    "n_features": 37,
+    "cv_logloss": 1.4976156195437613
+   },
+   "+ recent performance (hot hand)": {
+    "n_features": 47,
+    "cv_logloss": 1.4968598769792592
+   },
+   "gain_from_hot_hand": {
+    "mean_logloss_change": -0.0007217058637595826,
+    "lo": -0.0014104876529644186,
+    "hi": -4.620906823061768e-05,
+    "hot_features_used": [
+     "bat_runs",
+     "bat_sr10",
+     "bowl_dots10",
+     "form_vs_hist",
+     "last10_runs",
+     "last20_bnd",
+     "last20_dot",
+     "last5_dot",
+     "part_runs",
+     "prev_runs"
+    ]
+   }
+  },
+  "E2_5": {
+   "window": 5,
+   "batter_innings": 1211,
+   "windows": 3375,
+   "slope": 0.14560988132338964,
+   "lo": 0.09358853376364919,
+   "hi": 0.20002596531802555,
+   "shuffle_null_mean": 0.008363143480411828,
+   "shuffle_p": 0.000999000999000999
+  },
+  "E2_10": {
+   "window": 10,
+   "batter_innings": 546,
+   "windows": 838,
+   "slope": 0.11809002742684757,
+   "lo": 0.01329011698017319,
+   "hi": 0.22590116625523554,
+   "shuffle_null_mean": 0.08798872822429735,
+   "shuffle_p": 0.1918081918081918
+  },
+  "E3": [
+   {
+    "window": 10,
+    "n": 1584,
+    "R2_forecast_ridge": 0.10409824169941595
+   },
+   {
+    "window": 20,
+    "n": 789,
+    "R2_forecast_ridge": 0.1122478681211585
+   },
+   {
+    "window": 50,
+    "n": 312,
+    "R2_forecast_ridge": 0.13054203034750378
+   }
+  ],
+  "E4": {
+   "cut_points": 6,
+   "features_changed": []
+  }
+ },
+ "female": {
+  "E1": {
+   "state + history + settledness": {
+    "n_features": 39,
+    "cv_logloss": 1.4171684234913076
+   },
+   "+ recent performance (hot hand)": {
+    "n_features": 48,
+    "cv_logloss": 1.4162481893456693
+   },
+   "gain_from_hot_hand": {
+    "mean_logloss_change": -0.0009549333612620169,
+    "lo": -0.00192653862683345,
+    "hi": -5.173635607249727e-05,
+    "hot_features_used": [
+     "bat_dots10",
+     "bat_runs",
+     "bowl_dots10",
+     "last10_dot",
+     "last5_bnd",
+     "last5_dot",
+     "last5_runs",
+     "part_runs",
+     "prev_runs"
+    ]
+   }
+  },
+  "E2_5": {
+   "window": 5,
+   "batter_innings": 1108,
+   "windows": 3259,
+   "slope": 0.06748069095419766,
+   "lo": 0.002735607379840553,
+   "hi": 0.1358151470438285,
+   "shuffle_null_mean": 0.0015241988544497955,
+   "shuffle_p": 0.000999000999000999
+  },
+  "E2_10": {
+   "window": 10,
+   "batter_innings": 539,
+   "windows": 850,
+   "slope": 0.1253030446180349,
+   "lo": 0.02806059490728157,
+   "hi": 0.2320160907613438,
+   "shuffle_null_mean": 0.06325693620836707,
+   "shuffle_p": 0.03196803196803197
+  },
+  "E3": [
+   {
+    "window": 10,
+    "n": 1504,
+    "R2_forecast_ridge": 0.08593401668361766
+   },
+   {
+    "window": 20,
+    "n": 747,
+    "R2_forecast_ridge": 0.11031492704505352
+   },
+   {
+    "window": 50,
+    "n": 294,
+    "R2_forecast_ridge": 0.05522769973833852
+   }
+  ],
+  "E4": {
+   "cut_points": 6,
+   "features_changed": []
+  }
+ }
+}

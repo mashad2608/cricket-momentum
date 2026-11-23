@@ -1,0 +1,13 @@
+model,men,women
+LightGBM + random forest (locked model),1.49494,1.41513
+Random forest,1.49536,1.41664
+LightGBM + XGBoost + random forest,1.4955,1.41527
+All seven models,1.49564,1.41477
+All tree models,1.49588,1.41537
+LightGBM,1.49681,1.41603
+Extra trees,1.49685,1.41862
+LightGBM + XGBoost,1.49701,1.41618
+XGBoost,1.49804,1.41732
+Logistic regression,1.50923,1.43015
+HistGradientBoosting,1.5143,1.43041
+Neural network (MLP),1.52898,1.44598

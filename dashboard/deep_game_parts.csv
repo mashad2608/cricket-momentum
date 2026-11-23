@@ -1,0 +1,21 @@
+gender,innings,part,corr_with_winning,lo,hi,matches
+Men,1st innings,Balls 1–20,0.2742,0.1369,0.4131,157
+Men,1st innings,Balls 21–40,0.3387,0.2111,0.4777,157
+Men,1st innings,Balls 41–60,0.2982,0.1561,0.4351,157
+Men,1st innings,Balls 61–80,0.2697,0.1306,0.4127,157
+Men,1st innings,Balls 81–100,0.2963,0.1613,0.4291,157
+Men,Chase,Balls 1–20,0.3427,0.2067,0.458,157
+Men,Chase,Balls 21–40,0.3069,0.1821,0.4325,157
+Men,Chase,Balls 41–60,0.4211,0.3183,0.5214,156
+Men,Chase,Balls 61–80,0.3475,0.2273,0.4669,153
+Men,Chase,Balls 81–100,0.5295,0.459,0.5907,138
+Women,1st innings,Balls 1–20,0.3899,0.2552,0.5119,148
+Women,1st innings,Balls 21–40,0.3095,0.1687,0.4474,148
+Women,1st innings,Balls 41–60,0.3889,0.2598,0.5129,148
+Women,1st innings,Balls 61–80,0.2917,0.1449,0.4248,148
+Women,1st innings,Balls 81–100,0.3949,0.2582,0.518,148
+Women,Chase,Balls 1–20,0.3716,0.2217,0.4936,148
+Women,Chase,Balls 21–40,0.2835,0.1369,0.4305,148
+Women,Chase,Balls 41–60,0.2449,0.0887,0.3961,147
+Women,Chase,Balls 61–80,0.3359,0.1995,0.4614,143
+Women,Chase,Balls 81–100,0.5495,0.4687,0.6188,126

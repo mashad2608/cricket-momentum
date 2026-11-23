@@ -1,0 +1,16 @@
+male: 32 new features; coverage {"batter_has_history": 1.0, "h2h_has_history": 0.632, "h2h_median_balls": 6.0, "batvenue_has_history": 0.842, "bowler_type_known": 0.984, "batter_hand_known": 0.993}
+  male fold 2022: {'locked': 1.5024713053892746, 'with_history': 1.5019136252496188, 'diff': -0.0005576801396558473}
+  male fold 2023: {'locked': 1.5070281971894086, 'with_history': 1.5073064056429724, 'diff': 0.00027820845356374413}
+  male fold 2024: {'locked': 1.4844973469934355, 'with_history': 1.4807670929642707, 'diff': -0.0037302540291648256}
+  male fold 2025: {'locked': 1.486018830527745, 'with_history': 1.4842945849159201, 'diff': -0.0017242456118249372}
+  male CV: {"locked": 1.4949383769514832, "with_history": 1.4935134895476252, "diff": -0.0014248874038575898, "lo": -0.0023285271069842946, "hi": -0.0005496828038645111, "p_worse_or_equal": 0.0}
+  male 2026 (second look): {'locked': 1.491488644847889, 'with_history': 1.488145502564714, 'diff': -0.0033431422831751156}
+  male new features carry 26.8% of LightGBM gain; top new: [{'feature': 'ext_bowl_dot', 'rank': 15, 'gain_share': 0.01524705358673487}, {'feature': 'ext_bat_out', 'rank': 16, 'gain_share': 0.015245186268132517}, {'feature': 'batkind_dot', 'rank': 17, 'gain_share': 0.013343178914575779}, {'feature': 'ext_bowl_bnd', 'rank': 19, 'gain_share': 0.012164654770200171}, {'feature': 'battype_runs', 'rank': 21, 'gain_share': 0.011890592459472629}]
+female: 32 new features; coverage {"batter_has_history": 1.0, "h2h_has_history": 0.712, "h2h_median_balls": 7.0, "batvenue_has_history": 0.821, "bowler_type_known": 1.0, "batter_hand_known": 1.0}
+  female fold 2022: {'locked': 1.3980070780915512, 'with_history': 1.3991733879561121, 'diff': 0.0011663098645608994}
+  female fold 2023: {'locked': 1.4423892645927416, 'with_history': 1.439664926691046, 'diff': -0.0027243379016956837}
+  female fold 2024: {'locked': 1.4071767796586574, 'with_history': 1.4063514783656959, 'diff': -0.0008253012929615444}
+  female fold 2025: {'locked': 1.4137093644494276, 'with_history': 1.4125080941882981, 'diff': -0.0012012702611294834}
+  female CV: {"locked": 1.4151311353699614, "with_history": 1.4141996999410655, "diff": -0.0009314354288955883, "lo": -0.0018986991911340387, "hi": 7.799050365150209e-05, "p_worse_or_equal": 0.034}
+  female 2026 (second look): {'locked': 1.4311020346342231, 'with_history': 1.4289471755725938, 'diff': -0.0021548590616293772}
+  female new features carry 31.5% of LightGBM gain; top new: [{'feature': 'ext_bat_runs', 'rank': 9, 'gain_share': 0.01945252634485177}, {'feature': 'batkind_runs', 'rank': 12, 'gain_share': 0.018320663887822098}, {'feature': 'ext_bowl_out', 'rank': 13, 'gain_share': 0.01756456764819589}, {'feature': 'h2h_runs', 'rank': 15, 'gain_share': 0.016078651090974123}, {'feature': 'bowlhand_out', 'rank': 16, 'gain_share': 0.015465142634644753}]

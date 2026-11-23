@@ -1,0 +1,96 @@
+gender,feature,label,factor,shap_first_innings,shap_chase,rank_first_innings,rank_chase,rank_change
+Men,wkts_per_ball_left,Wickets in hand per ball left,Wickets in hand,0.0734,0.06798,1,1,0
+Men,bat_balls,Batter: balls faced this innings,Batter set / partnership,0.04297,0.04456,2,2,0
+Men,part_runs,Partnership: runs,Batter set / partnership,0.03446,0.03371,3,3,0
+Men,ball_no,Ball of the innings,Stage of innings,0.02997,0.03262,4,4,0
+Men,bat_runs,Batter: runs this innings,Batter set / partnership,0.0283,0.02836,5,5,0
+Men,bat_sr10,"Batter: runs per ball, last 10 faced",Recent scoring flow,0.02707,0.02739,6,6,0
+Men,score_pre,Score so far,Stage of innings,0.02673,0.02433,7,7,0
+Men,bowlph_hist_bnd,Bowler history in this phase: boundary rate,Bowler (spell and quality),0.02182,0.02191,8,10,-2
+Men,form_vs_hist,Batter: form v own history,Batter quality (history),0.02123,0.02199,9,9,0
+Men,venue_hist_bnd,Venue: boundary rate,Venue and season,0.02049,0.02184,10,11,-1
+Men,batph_hist_bnd,Batter history in this phase: boundary rate,Batter quality (history),0.01591,0.01684,11,12,-1
+Men,part_balls,Partnership: balls,Batter set / partnership,0.01548,0.01635,12,13,-1
+Men,last20_dot,"Team: dots, last 20",Recent scoring flow,0.01445,0.01577,13,14,-1
+Men,balls_left,Balls left,Stage of innings,0.01411,0.01565,14,15,-1
+Men,matchup_runs,Batter v bowler: expected runs,Batter quality (history),0.01013,0.00998,15,17,-2
+Men,batph_hist_balls,Batter history in this phase: balls,Batter quality (history),0.00813,0.00954,16,18,-2
+Men,bat_death_hist_bnd,Batter history: death boundary rate,Batter quality (history),0.00794,0.0092,17,19,-2
+Men,powerplay,Powerplay,Stage of innings,0.00788,0.00847,18,20,-2
+Men,bowl_hist_dot,Bowler history: dot rate,Bowler (spell and quality),0.00693,0.00671,19,22,-3
+Men,prev_runs,Runs off the previous ball,Recent scoring flow,0.00672,0.00643,20,25,-5
+Men,new_batter,New batter,Batter set / partnership,0.00638,0.00651,21,24,-3
+Men,season_hist_runs,Season: runs per ball,Venue and season,0.00625,0.00652,22,23,-1
+Men,since_wicket,Balls since last wicket,Batter set / partnership,0.00615,0.00634,23,27,-4
+Men,bat_death_hist_dot,Batter history: death dot rate,Batter quality (history),0.00605,0.00576,24,28,-4
+Men,last20_wkt,"Team: wickets, last 20",Recent scoring flow,0.00588,0.00641,25,26,-1
+Men,last10_runs,"Team: runs, last 10 balls",Recent scoring flow,0.00451,0.00412,26,33,-7
+Men,bat_hist_bnd,Batter history: boundary rate,Batter quality (history),0.00418,0.00458,27,30,-3
+Men,season_hist_wkt,Season: wicket rate,Venue and season,0.00408,0.0042,28,32,-4
+Men,wkts_pre,Wickets down,Wickets in hand,0.00398,0.00427,29,31,-2
+Men,rate_gap,Required minus current rate,Chase pressure,0.00352,0.01512,30,16,14
+Men,bowl_dots10,"Bowler: dots, last 10 bowled",Bowler (spell and quality),0.00302,0.00296,31,35,-4
+Men,ball_in_set,Ball within the set,Stage of innings,0.00287,0.00314,32,34,-2
+Men,bowl_balls,Bowler: balls this innings,Bowler (spell and quality),0.00261,0.0022,33,39,-6
+Men,batph_hist_dot,Batter history in this phase: dot rate,Batter quality (history),0.00247,0.0027,34,36,-2
+Men,last10_wkt,"Team: wickets, last 10",Recent scoring flow,0.00227,0.00233,35,37,-2
+Men,runs_needed,Runs needed,Chase pressure,0.00226,0.00693,36,21,15
+Men,venue_hist_dot,Venue: dot rate,Venue and season,0.00205,0.00222,37,38,-1
+Men,last20_bnd,"Team: boundaries, last 20",Recent scoring flow,0.00199,0.00207,38,40,-2
+Men,bowl_wkts,Bowler: wickets this innings,Bowler (spell and quality),0.00149,0.00148,39,41,-2
+Men,req_rate,Required rate,Chase pressure,0.00124,0.02314,40,8,32
+Men,last5_wkt,"Team: wickets, last 5",Recent scoring flow,0.00105,0.00114,41,42,-1
+Men,last5_dot,"Team: dots, last 5",Recent scoring flow,0.00064,0.00081,42,43,-1
+Men,bowler_set_no,Bowler: which set of theirs,Bowler (spell and quality),0.00055,0.00048,43,44,-1
+Men,chase_target,Target,Chase pressure,0.00051,0.00563,44,29,15
+Men,consecutive_set,Bowler: back-to-back sets,Bowler (spell and quality),7e-05,9e-05,45,45,0
+Men,innings2,Chasing (yes/no),Stage of innings,4e-05,5e-05,46,46,0
+Men,free_hit,Free hit,Stage of innings,0.0,0.0,47,47,0
+Women,bat_balls,Batter: balls faced this innings,Batter set / partnership,0.04567,0.04703,1,1,0
+Women,wkts_per_ball_left,Wickets in hand per ball left,Wickets in hand,0.03991,0.03586,2,2,0
+Women,bat_runs,Batter: runs this innings,Batter set / partnership,0.03431,0.03471,3,4,-1
+Women,bat_hist_bnd,Batter history: boundary rate,Batter quality (history),0.0331,0.0348,4,3,1
+Women,score_pre,Score so far,Stage of innings,0.02977,0.02735,5,5,0
+Women,ball_no,Ball of the innings,Stage of innings,0.02173,0.02308,6,7,-1
+Women,new_batter,New batter,Batter set / partnership,0.01975,0.01946,7,8,-1
+Women,bowl_hist_dot,Bowler history: dot rate,Bowler (spell and quality),0.01812,0.01859,8,9,-1
+Women,batph_hist_bnd,Batter history in this phase: boundary rate,Batter quality (history),0.01722,0.0171,9,10,-1
+Women,bowl_dots10,"Bowler: dots, last 10 bowled",Bowler (spell and quality),0.01588,0.01584,10,12,-2
+Women,part_runs,Partnership: runs,Batter set / partnership,0.01557,0.01606,11,11,0
+Women,bat_dots10,"Batter: dots, last 10 faced",Recent scoring flow,0.01372,0.01422,12,14,-2
+Women,wkts_pre,Wickets down,Wickets in hand,0.01087,0.01148,13,16,-3
+Women,venue_hist_wkt,Venue: wicket rate,Venue and season,0.01086,0.01122,14,17,-3
+Women,bowl_hist_bnd,Bowler history: boundary rate,Bowler (spell and quality),0.0093,0.00882,15,18,-3
+Women,bowlph_hist_wkt,Bowler history in this phase: wicket rate,Bowler (spell and quality),0.00896,0.00868,16,19,-3
+Women,last5_wkt,"Team: wickets, last 5",Recent scoring flow,0.0076,0.00818,17,20,-3
+Women,set_batter,Batter is set,Batter set / partnership,0.00674,0.00672,18,22,-4
+Women,last10_dot,"Team: dots, last 10",Recent scoring flow,0.00652,0.00603,19,26,-7
+Women,since_wicket,Balls since last wicket,Batter set / partnership,0.00634,0.00666,20,23,-3
+Women,batph_hist_wkt,Batter history in this phase: dismissal rate,Batter quality (history),0.00616,0.00611,21,25,-4
+Women,balls_left,Balls left,Stage of innings,0.00602,0.00613,22,24,-2
+Women,bowlph_hist_dot,Bowler history in this phase: dot rate,Bowler (spell and quality),0.00591,0.00599,23,27,-4
+Women,season_hist_runs,Season: runs per ball,Venue and season,0.00542,0.00532,24,29,-5
+Women,prev_runs,Runs off the previous ball,Recent scoring flow,0.00521,0.00549,25,28,-3
+Women,bowl_hist_runs,Bowler history: runs per ball,Bowler (spell and quality),0.00502,0.00443,26,31,-5
+Women,part_balls,Partnership: balls,Batter set / partnership,0.00449,0.00491,27,30,-3
+Women,venue_hist_dot,Venue: dot rate,Venue and season,0.00348,0.00403,28,32,-4
+Women,matchup_wkt,Batter v bowler: expected wicket rate,Bowler (spell and quality),0.00345,0.00367,29,33,-4
+Women,bat_death_hist_bnd,Batter history: death boundary rate,Batter quality (history),0.00343,0.00356,30,34,-4
+Women,bat_death_hist_dot,Batter history: death dot rate,Batter quality (history),0.00328,0.00329,31,36,-5
+Women,bat_hist_runs,Batter history: runs per ball,Batter quality (history),0.00323,0.00341,32,35,-3
+Women,bowl_balls,Bowler: balls this innings,Bowler (spell and quality),0.00322,0.00275,33,38,-5
+Women,runs_needed,Runs needed,Chase pressure,0.00297,0.01298,34,15,19
+Women,season_hist_wkt,Season: wicket rate,Venue and season,0.00279,0.00283,35,37,-2
+Women,last10_wkt,"Team: wickets, last 10",Recent scoring flow,0.00235,0.00219,36,40,-4
+Women,rate_gap,Required minus current rate,Chase pressure,0.00233,0.01495,37,13,24
+Women,powerplay,Powerplay,Stage of innings,0.00226,0.00252,38,39,-1
+Women,last20_wkt,"Team: wickets, last 20",Recent scoring flow,0.00202,0.00214,39,41,-2
+Women,season_hist_dot,Season: dot rate,Venue and season,0.00167,0.00156,40,45,-5
+Women,last5_runs,"Team: runs, last 5 balls",Recent scoring flow,0.00166,0.00188,41,42,-1
+Women,last5_dot,"Team: dots, last 5",Recent scoring flow,0.00164,0.00156,42,44,-2
+Women,bowl_wkts,Bowler: wickets this innings,Bowler (spell and quality),0.00147,0.00138,43,46,-3
+Women,last5_bnd,"Team: boundaries, last 5",Recent scoring flow,0.00142,0.00159,44,43,1
+Women,req_rate,Required rate,Chase pressure,0.00127,0.02492,45,6,39
+Women,chase_target,Target,Chase pressure,0.00081,0.00799,46,21,25
+Women,consecutive_set,Bowler: back-to-back sets,Bowler (spell and quality),0.00018,0.00019,47,47,0
+Women,innings2,Chasing (yes/no),Stage of innings,0.00011,0.00014,48,48,0

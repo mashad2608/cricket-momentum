@@ -1,0 +1,120 @@
+===== male run started Mon Nov 23 02:34:44 2026 =====
+standard games 190, matching official result 190; innings over 100 legal balls 0
+matches 201, full 189
+features built: 80; deliveries 38777; full-match deliveries 37680
+[1s] data
+  selection fold 2022: kept 49 of 80
+  selection fold 2023: kept 54 of 80
+  selection fold 2024: kept 54 of 80
+  selection fold 2025: kept 52 of 80
+features kept in >=3 folds: 47
+[128s] selection
+LightGBM tuned CV log-loss 1.49686
+candidates CV log-loss: {'LightGBM (tuned)': np.float64(1.49686), 'Random forest (tuned)': np.float64(1.49544), 'Average of both': np.float64(1.495)} -> chosen: Average of both
+2026 test:
+          model  logloss  brier  R2_runs  AUC_wicket  AUC_boundary
+  mean baseline   1.5394 0.7342   0.0000      0.5000        0.5000
+phase x wickets   1.5108 0.7214   0.0082      0.6085        0.5646
+Average of both   1.4915 0.7143   0.0280      0.6187        0.6097
+[458s] model
+win-prob model on 2026 chases: log-loss 0.4037 (constant 0.6924), AUC 0.895
+ball values: 31732 deliveries, seasons [np.int64(2022), np.int64(2023), np.int64(2024), np.int64(2025), np.int64(2026)]; mean gap by innings {1: 0.011, 2: 0.0002}
+[463s] values
+THESIS (R2 of expected v actual runs by window):
+ innings  window     n  R2_descriptive  R2_forecast
+       1       1 16474           0.035        0.035
+       1       5  3230           0.173        0.078
+       1      10  1584           0.249        0.072
+       1      20   789           0.329       -0.100
+       1      50   312           0.397       -0.642
+       1     100   153           0.404       -3.116
+       2       1 15258           0.020        0.020
+       2       5  2985           0.109        0.026
+       2      10  1455           0.167       -0.017
+       2      20   701           0.215       -0.238
+       2      50   240           0.242       -0.959
+       2     100    82           0.255       -2.805
+RQ1 (persistence):
+ window    sample    n  slope      lo     hi  spearman  shuffle_p  shuffle_null_mean H1_supported
+     10    pooled 2721 0.0824  0.0321 0.1314    0.0779     0.6004             0.0874        False
+     10 innings 1 1425 0.0670  0.0119 0.1227    0.0748        NaN                NaN          NaN
+     10 innings 2 1296 0.1056  0.0065 0.2009    0.0768        NaN                NaN          NaN
+      5    pooled 5897 0.0463  0.0073 0.0838    0.0727     0.4595             0.0448        False
+      5 innings 1 3071 0.0335 -0.0068 0.0726    0.0639        NaN                NaN          NaN
+      5 innings 2 2826 0.0623 -0.0135 0.1350    0.0818        NaN                NaN          NaN
+RQ2: {"H2a": {"disagree_inn1": 0.11038391471560624, "disagree_inn2": 0.2343899389571229, "diff": 0.12400602424151666, "lo": 0.1056105928833723, "hi": 0.14136681000686274}, "H2b": {"rho_model": 0.07790943037681833, "rho_scoreboard": 0.027266982033091962, "diff": 0.050642448343726366, "lo": 0.028604095921778486, "hi": 0.07344940550142881}}
+D1 keep v change bowler: not estimable {'status': 'not estimable (too few units or matches)', 'n_units': 1569, 'n_treated': 20}
+D2 ten straight v split: treated 207, matched 206, ATT -0.246 [-0.683, +0.352], p 0.508, max|SMD| 0.150, status not estimable (balance failed)
+D3 fresh bowler after hot spell: treated 1236, matched 945, ATT +0.194 [-0.269, +0.636], p 0.528, max|SMD| 0.076, status estimable
+D4 promoted big hitter: not estimable {'status': 'not estimable (too few units or matches)', 'n_units': 387, 'n_treated': 5}
+SHAP (mean |log-odds contribution| by correlated group):
+                 wicket  boundary     dot
+ball_no (+4)     0.1567    0.2129  0.1886
+part_balls (+2)  0.0582    0.1985  0.0266
+bat_balls (+1)   0.0160    0.1502  0.0942
+bat_sr10 (+1)    0.0524    0.1416  0.0449
+venue_hist_bnd   0.0028    0.0784  0.0137
+rate_gap (+1)    0.0629    0.0650  0.0302
+bowlph_hist_bnd  0.0163    0.0643  0.0017
+batph_hist_bnd   0.0160    0.0453  0.0022
+last20_dot       0.0015    0.0290  0.0248
+matchup_runs     0.0058    0.0226  0.0058
+last20_wkt       0.0023    0.0199  0.0006
+powerplay        0.0000    0.0199  0.0000
+groups with >1 feature: ball_no (+4): ['ball_no', 'balls_left', 'runs_needed', 'score_pre', 'wkts_per_ball_left']; bat_balls (+1): ['bat_balls', 'bat_runs']; bat_sr10 (+1): ['bat_sr10', 'form_vs_hist']; bowl_balls (+1): ['bowl_balls', 'bowler_set_no']; part_balls (+2): ['part_balls', 'part_runs', 'since_wicket']; rate_gap (+1): ['rate_gap', 'req_rate']
+ABLATION:
+                   layer  n_features  cv_logloss
+no features (base rates)           0     1.54048
+             match state          13     1.50452
+        + player history          26     1.50787
+     + recent form (all)          47     1.49686
+[540s] analysis done
+===== male analysis-only rerun Mon Nov 23 02:44:46 2026 =====
+THESIS (R2 of expected v actual runs by window):
+ innings  window     n  R2_descriptive  R2_forecast  n_forecast
+       1       1 16474           0.035        0.023       16474
+       1       5  3230           0.173        0.027        3230
+       1      10  1584           0.249        0.043        1584
+       1      20   789           0.329        0.015         789
+       1      50   312           0.397        0.047         312
+       1     100   153           0.404       -0.090         120
+       2       1 15258           0.020        0.002       15258
+       2       5  2985           0.109       -0.028        2985
+       2      10  1455           0.167       -0.071        1455
+       2      20   701           0.215       -0.082         701
+       2      50   240           0.242       -0.021         240
+       2     100    82           0.255        0.273          65
+RQ1 (persistence):
+ window    sample    n  slope      lo     hi  spearman  shuffle_p  shuffle_null_mean H1_supported
+     10    pooled 2721 0.0824  0.0321 0.1314    0.0779     0.6004             0.0874        False
+     10 innings 1 1425 0.0670  0.0119 0.1227    0.0748        NaN                NaN          NaN
+     10 innings 2 1296 0.1056  0.0065 0.2009    0.0768        NaN                NaN          NaN
+      5    pooled 5897 0.0463  0.0073 0.0838    0.0727     0.4595             0.0448        False
+      5 innings 1 3071 0.0335 -0.0068 0.0726    0.0639        NaN                NaN          NaN
+      5 innings 2 2826 0.0623 -0.0135 0.1350    0.0818        NaN                NaN          NaN
+RQ2: {"H2a": {"disagree_inn1": 0.11038391471560624, "disagree_inn2": 0.2343899389571229, "diff": 0.12400602424151666, "lo": 0.1056105928833723, "hi": 0.14136681000686274}, "H2b": {"rho_model": 0.07790943037681833, "rho_scoreboard": 0.027266982033091962, "diff": 0.050642448343726366, "lo": 0.028604095921778486, "hi": 0.07344940550142881}}
+D1 keep v change bowler: not estimable {'status': 'not estimable (too few units or matches)', 'n_units': 1569, 'n_treated': 20}
+D2 ten straight v split: treated 207, matched 206, ATT -0.246 [-0.683, +0.352], p 0.508, max|SMD| 0.150, status not estimable (balance failed)
+D3 fresh bowler after hot spell: treated 1236, matched 945, ATT +0.194 [-0.269, +0.636], p 0.528, max|SMD| 0.076, status estimable
+D4 promoted big hitter: not estimable {'status': 'not estimable (too few units or matches)', 'n_units': 387, 'n_treated': 5}
+SHAP (mean |log-odds contribution| by correlated group):
+                 wicket  boundary     dot
+ball_no (+4)     0.1567    0.2129  0.1886
+part_balls (+2)  0.0582    0.1985  0.0266
+bat_balls (+1)   0.0160    0.1502  0.0942
+bat_sr10 (+1)    0.0524    0.1416  0.0449
+venue_hist_bnd   0.0028    0.0784  0.0137
+rate_gap (+1)    0.0629    0.0650  0.0302
+bowlph_hist_bnd  0.0163    0.0643  0.0017
+batph_hist_bnd   0.0160    0.0453  0.0022
+last20_dot       0.0015    0.0290  0.0248
+matchup_runs     0.0058    0.0226  0.0058
+last20_wkt       0.0023    0.0199  0.0006
+powerplay        0.0000    0.0199  0.0000
+groups with >1 feature: ball_no (+4): ['ball_no', 'balls_left', 'runs_needed', 'score_pre', 'wkts_per_ball_left']; bat_balls (+1): ['bat_balls', 'bat_runs']; bat_sr10 (+1): ['bat_sr10', 'form_vs_hist']; bowl_balls (+1): ['bowl_balls', 'bowler_set_no']; part_balls (+2): ['part_balls', 'part_runs', 'since_wicket']; rate_gap (+1): ['rate_gap', 'req_rate']
+ABLATION:
+                   layer  n_features  cv_logloss
+no features (base rates)           0     1.54048
+             match state          13     1.50452
+        + player history          26     1.50787
+     + recent form (all)          47     1.49686

@@ -1,0 +1,45 @@
+gender,event,innings,n,momentum_after,lo,hi
+Men,After a four or six (next ball),1st innings,2836,-0.0047,-0.052,0.0402
+Men,After a four or six (next ball),Chase,2645,0.0293,-0.0158,0.0708
+Men,After two boundaries in a row (next ball),1st innings,573,0.0806,-0.012,0.1723
+Men,After two boundaries in a row (next ball),Chase,543,0.0708,-0.0499,0.1943
+Men,After a six (next ball),1st innings,974,0.024,-0.0569,0.0984
+Men,After a six (next ball),Chase,845,0.1146,0.0286,0.2051
+Men,After a wicket (next 5 balls),1st innings,886,-0.0026,-0.0249,0.0188
+Men,After a wicket (next 5 balls),Chase,810,0.0192,-0.0236,0.0599
+Men,After a wide (next ball),1st innings,529,0.0562,-0.0331,0.1404
+Men,After a wide (next ball),Chase,498,-0.0216,-0.1098,0.0675
+Men,After a no-ball: the free hit (next ball),1st innings,100,0.3171,0.1321,0.5018
+Men,After a no-ball: the free hit (next ball),Chase,107,0.1426,-0.0487,0.352
+Men,A bowler's first 5 balls of the match,1st innings,1003,-0.0003,-0.0348,0.0364
+Men,A bowler's first 5 balls of the match,Chase,982,0.0033,-0.0172,0.024
+Men,A bowler's back-to-back set (first 5 balls),1st innings,196,-0.0396,-0.1006,0.0201
+Men,A bowler's back-to-back set (first 5 balls),Chase,211,0.0011,-0.0657,0.0634
+Men,A new batter's first 5 balls,1st innings,1245,-0.0183,-0.0415,0.0059
+Men,A new batter's first 5 balls,Chase,1174,0.0136,-0.0172,0.0458
+Men,First 5 balls after the powerplay,1st innings,163,-0.0414,-0.1188,0.032
+Men,First 5 balls after the powerplay,Chase,165,0.0187,-0.0274,0.0633
+Men,Last 5 balls of the innings,1st innings,159,0.05,-0.0134,0.1133
+Men,Last 5 balls of the innings,Chase,68,-0.1753,-0.459,0.1353
+Women,After a four or six (next ball),1st innings,2371,0.0115,-0.0281,0.0506
+Women,After a four or six (next ball),Chase,2177,0.0011,-0.039,0.0441
+Women,After two boundaries in a row (next ball),1st innings,385,-0.0085,-0.1351,0.1066
+Women,After two boundaries in a row (next ball),Chase,386,0.0369,-0.0523,0.1382
+Women,After a six (next ball),1st innings,281,0.1096,-0.0375,0.2477
+Women,After a six (next ball),Chase,250,0.0337,-0.088,0.1687
+Women,After a wicket (next 5 balls),1st innings,826,-0.0018,-0.0313,0.0261
+Women,After a wicket (next 5 balls),Chase,740,-0.0194,-0.0547,0.0195
+Women,After a wide (next ball),1st innings,437,0.0495,-0.0279,0.1256
+Women,After a wide (next ball),Chase,380,-0.0374,-0.1281,0.0539
+Women,After a no-ball: the free hit (next ball),1st innings,80,0.348,0.0738,0.6133
+Women,After a no-ball: the free hit (next ball),Chase,73,0.1992,-0.0406,0.4933
+Women,A bowler's first 5 balls of the match,1st innings,969,0.0049,-0.0273,0.0389
+Women,A bowler's first 5 balls of the match,Chase,953,-0.0085,-0.0325,0.0142
+Women,A bowler's back-to-back set (first 5 balls),1st innings,135,-0.0491,-0.1384,0.0394
+Women,A bowler's back-to-back set (first 5 balls),Chase,135,0.0714,0.0114,0.131
+Women,A new batter's first 5 balls,1st innings,1170,-0.0074,-0.0371,0.0217
+Women,A new batter's first 5 balls,Chase,1083,-0.0116,-0.0424,0.0218
+Women,First 5 balls after the powerplay,1st innings,154,0.0307,-0.0434,0.1032
+Women,First 5 balls after the powerplay,Chase,156,-0.041,-0.09,0.0044
+Women,Last 5 balls of the innings,1st innings,148,0.0937,0.0321,0.1598
+Women,Last 5 balls of the innings,Chase,60,-0.1142,-0.3833,0.1372

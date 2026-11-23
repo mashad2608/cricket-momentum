@@ -1,0 +1,48 @@
+feature,label,factor,1st innings,Chase,rank_1st,rank_chase,rank_change
+wkts_per_ball_left,Wickets in hand per ball left,Wickets in hand,0.07339974953768137,0.0679750584031298,1,1,0
+bat_balls,Batter: balls faced this innings,Batter set / partnership,0.042967521864142946,0.04456385354575487,2,2,0
+part_runs,Partnership: runs,Batter set / partnership,0.03446078959780928,0.03371146047773871,3,3,0
+ball_no,Ball of the innings,Stage of innings,0.0299691380641281,0.032615305768729834,4,4,0
+bat_runs,Batter: runs this innings,Batter set / partnership,0.02829994076365909,0.028355346290538503,5,5,0
+bat_sr10,"Batter: runs per ball, last 10 faced",Recent scoring flow,0.02706985494291361,0.027385661809404393,6,6,0
+score_pre,Score so far,Stage of innings,0.026734537134812206,0.024329802716834385,7,7,0
+bowlph_hist_bnd,Bowler history in this phase: boundary rate,Bowler (spell and quality),0.021822581020819673,0.021910214536949427,8,10,-2
+form_vs_hist,Batter: form v own history,Batter quality (history),0.02122806054009253,0.021990507329132436,9,9,0
+venue_hist_bnd,Venue: boundary rate,Venue and season,0.020491544164660064,0.021841836582843055,10,11,-1
+batph_hist_bnd,Batter history in this phase: boundary rate,Batter quality (history),0.01591229486129554,0.01684477841233715,11,12,-1
+part_balls,Partnership: balls,Batter set / partnership,0.015475020158509295,0.016352544093273434,12,13,-1
+last20_dot,"Team: dots, last 20",Recent scoring flow,0.014453268710185081,0.015765334606803908,13,14,-1
+balls_left,Balls left,Stage of innings,0.014112475471649587,0.01565391598793102,14,15,-1
+matchup_runs,Batter v bowler: expected runs,Batter quality (history),0.010129636327956252,0.009980623951465786,15,17,-2
+batph_hist_balls,Batter history in this phase: balls,Batter quality (history),0.008126853651364683,0.0095449000970989,16,18,-2
+bat_death_hist_bnd,Batter history: death boundary rate,Batter quality (history),0.007939184285943831,0.009204050988925372,17,19,-2
+powerplay,Powerplay,Stage of innings,0.007876173631914946,0.00846821715094186,18,20,-2
+bowl_hist_dot,Bowler history: dot rate,Bowler (spell and quality),0.006933602004854456,0.006714001211012416,19,22,-3
+prev_runs,Runs off the previous ball,Recent scoring flow,0.006721171925789978,0.006427103566945128,20,25,-5
+new_batter,New batter,Batter set / partnership,0.006382851147431128,0.006513332269596784,21,24,-3
+season_hist_runs,Season: runs per ball,Venue and season,0.006245623992101656,0.0065162336921444595,22,23,-1
+since_wicket,Balls since last wicket,Batter set / partnership,0.006147751042549828,0.0063443103375757336,23,27,-4
+bat_death_hist_dot,Batter history: death dot rate,Batter quality (history),0.006049245707665098,0.005757098904574848,24,28,-4
+last20_wkt,"Team: wickets, last 20",Recent scoring flow,0.005878822788642502,0.0064113256416340764,25,26,-1
+last10_runs,"Team: runs, last 10 balls",Recent scoring flow,0.004506446815023194,0.004121044337783257,26,33,-7
+bat_hist_bnd,Batter history: boundary rate,Batter quality (history),0.004178498907608671,0.004575743682031897,27,30,-3
+season_hist_wkt,Season: wicket rate,Venue and season,0.004079423502560011,0.004199628723984541,28,32,-4
+wkts_pre,Wickets down,Wickets in hand,0.0039768301936240254,0.004273753896172244,29,31,-2
+rate_gap,Required minus current rate,Chase pressure,0.003523760843939769,0.015122715591550026,30,16,14
+bowl_dots10,"Bowler: dots, last 10 bowled",Bowler (spell and quality),0.0030181566769649417,0.002960562542322814,31,35,-4
+ball_in_set,Ball within the set,Stage of innings,0.002866326233927377,0.003139634961166042,32,34,-2
+bowl_balls,Bowler: balls this innings,Bowler (spell and quality),0.0026072078785608433,0.002203501847756172,33,39,-6
+batph_hist_dot,Batter history in this phase: dot rate,Batter quality (history),0.002472858765344814,0.002697040506985915,34,36,-2
+last10_wkt,"Team: wickets, last 10",Recent scoring flow,0.002268999673503855,0.0023303125311427194,35,37,-2
+runs_needed,Runs needed,Chase pressure,0.0022643606568424676,0.006934011403518649,36,21,15
+venue_hist_dot,Venue: dot rate,Venue and season,0.002047514014294359,0.00221958417128362,37,38,-1
+last20_bnd,"Team: boundaries, last 20",Recent scoring flow,0.001989224941712581,0.0020689806075564884,38,40,-2
+bowl_wkts,Bowler: wickets this innings,Bowler (spell and quality),0.0014873632947304185,0.001476499185542974,39,41,-2
+req_rate,Required rate,Chase pressure,0.0012419536064029726,0.02314268420638392,40,8,32
+last5_wkt,"Team: wickets, last 5",Recent scoring flow,0.0010480214080253122,0.0011381604250731217,41,42,-1
+last5_dot,"Team: dots, last 5",Recent scoring flow,0.0006415324115587825,0.0008054123772768855,42,43,-1
+bowler_set_no,Bowler: which set of theirs,Bowler (spell and quality),0.0005544830036903095,0.0004831282451159181,43,44,-1
+chase_target,Target,Chase pressure,0.0005111466540647177,0.005631820762583707,44,29,15
+consecutive_set,Bowler: back-to-back sets,Bowler (spell and quality),6.681661432040659e-05,8.745270847989217e-05,45,45,0
+innings2,Chasing (yes/no),Stage of innings,4.3251091141938204e-05,4.7589707706796873e-05,46,46,0
+free_hit,Free hit,Stage of innings,0.0,0.0,47,47,0

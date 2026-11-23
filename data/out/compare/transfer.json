@@ -1,0 +1,10 @@
+{
+ "women_own_model_logloss": 1.418555647766185,
+ "men_model_on_women_logloss": 1.4339911296592691,
+ "wicket_rate_actual": 0.059991295905727965,
+ "wicket_rate_men_model": 0.06143180494556975,
+ "wicket_rate_women_model": 0.05903832696998389,
+ "boundary_rate_actual": 0.15533460547018849,
+ "boundary_rate_men_model": 0.16531163059333726,
+ "boundary_rate_women_model": 0.1557705332381729
+}

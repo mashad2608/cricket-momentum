@@ -1,0 +1,7 @@
+test,men,women,difference,lo,hi,significant
+Team momentum carries forward (10 balls),0.08238,0.05712,-0.02526,-0.09639,0.04587,No
+Team momentum carries forward (5 balls),0.04628,0.03485,-0.01143,-0.0679,0.04505,No
+Scoreboard misleads more in chases,0.12401,0.10598,-0.01803,-0.04284,0.00679,No
+Model momentum predicts the next spell better,0.05064,0.03774,-0.0129,-0.04614,0.02034,No
+Fresh bowler after a hot spell (SD),0.19403,-0.21263,-0.40666,-1.14858,0.33526,No
+Men's model used on women (log-loss gap),1.43399,1.41856,-0.01544,,,

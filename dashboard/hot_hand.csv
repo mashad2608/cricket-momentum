@@ -1,0 +1,5 @@
+gender,stage,competition,r,r2,excess_slope,p
+Men,Found: The Hundred,The Hundred,0.09607,0.00923,0.12322,0.001
+Men,Confirmed: fresh data,T20 Blast,0.00608,4e-05,0.0471,0.002
+Women,Found: The Hundred,The Hundred,0.04668,0.00218,0.06926,0.001
+Women,Confirmed: fresh data,English women’s T20,0.06669,0.00445,0.07913,0.002

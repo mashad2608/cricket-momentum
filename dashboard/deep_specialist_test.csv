@@ -1,0 +1,3 @@
+gender,bowlers,spread_observed,spread_shuffled,p,corr_first_last
+Men,44,0.1302,0.1497,0.8663,0.1101
+Women,42,0.1483,0.132,0.1377,-0.1905

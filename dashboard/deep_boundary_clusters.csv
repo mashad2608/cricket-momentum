@@ -1,0 +1,23 @@
+gender,condition,n,boundary_rate,expected,excess,lo,hi
+Men,After a boundary,5481,0.2065,0.2018,0.0047,-0.0074,0.0161
+Men,After no boundary,25933,0.1705,0.1725,-0.002,-0.0076,0.0038
+Men,After two boundaries,1116,0.2213,0.2167,0.0046,-0.0233,0.0294
+Men,"After a boundary, same bowler",3386,0.2153,0.2047,0.0106,-0.0036,0.0243
+Men,"After a boundary, new bowler",2095,0.1924,0.1973,-0.0049,-0.0228,0.0128
+Men,"After a boundary, v spin",1521,0.1867,0.1807,0.006,-0.0161,0.0268
+Men,"After a boundary, v pace",3882,0.2148,0.2107,0.0041,-0.0086,0.0162
+Men,"After a boundary, set batter (10+ balls)",2789,0.2126,0.2032,0.0094,-0.0093,0.0253
+Men,"After a boundary, batter under 10 balls",2692,0.2002,0.2004,-0.0002,-0.0157,0.0142
+Men,"After a boundary, powerplay",1673,0.2487,0.2389,0.0097,-0.0104,0.0295
+Men,"After a boundary, death (76+)",1398,0.2175,0.218,-0.0005,-0.0235,0.0216
+Women,After a boundary,4548,0.1748,0.1741,0.0007,-0.011,0.0135
+Women,After no boundary,25021,0.1524,0.1528,-0.0004,-0.0055,0.0045
+Women,After two boundaries,771,0.1946,0.1866,0.0079,-0.0217,0.0388
+Women,"After a boundary, same bowler",2784,0.1792,0.177,0.0022,-0.0125,0.0173
+Women,"After a boundary, new bowler",1764,0.1678,0.1694,-0.0016,-0.0191,0.0166
+Women,"After a boundary, v spin",2157,0.1572,0.1687,-0.0116,-0.0285,0.0069
+Women,"After a boundary, v pace",2391,0.1907,0.1789,0.0118,-0.0026,0.0274
+Women,"After a boundary, set batter (10+ balls)",2487,0.1797,0.1825,-0.0028,-0.0179,0.0129
+Women,"After a boundary, batter under 10 balls",2061,0.1689,0.1639,0.005,-0.012,0.023
+Women,"After a boundary, powerplay",1354,0.2001,0.1935,0.0067,-0.0155,0.0299
+Women,"After a boundary, death (76+)",1025,0.2059,0.1829,0.023,-0.0016,0.0497

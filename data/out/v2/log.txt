@@ -1,0 +1,90 @@
+  male fold 2022 log-loss 1.5015
+  male fold 2023 log-loss 1.5074
+  male fold 2024 log-loss 1.4806
+  male fold 2025 log-loss 1.4839
+  male 2026 log-loss 1.4880
+male: version 2 uses 90 features
+win-prob model on 2026 chases: log-loss 0.4037 (constant 0.6924), AUC 0.895
+ball values: 31732 deliveries, seasons [np.int64(2022), np.int64(2023), np.int64(2024), np.int64(2025), np.int64(2026)]; mean gap by innings {1: 0.0101, 2: 0.0002}
+THESIS (R2 of expected v actual runs by window):
+ innings  window     n  R2_descriptive  R2_forecast  n_forecast
+       1       1 16474           0.036        0.023       16474
+       1       5  3230           0.170        0.027        3230
+       1      10  1584           0.243        0.043        1584
+       1      20   789           0.320        0.015         789
+       1      50   312           0.382        0.047         312
+       1     100   153           0.396       -0.090         120
+       2       1 15258           0.020        0.002       15258
+       2       5  2985           0.105       -0.028        2985
+       2      10  1455           0.159       -0.071        1455
+       2      20   701           0.204       -0.082         701
+       2      50   240           0.241       -0.021         240
+       2     100    82           0.245        0.273          65
+RQ1 (persistence):
+ window    sample    n  slope      lo     hi  spearman  shuffle_p  shuffle_null_mean H1_supported
+     10    pooled 2721 0.0859  0.0363 0.1348    0.0815     0.5275             0.0873        False
+     10 innings 1 1425 0.0719  0.0169 0.1273    0.0799        NaN                NaN          NaN
+     10 innings 2 1296 0.1073  0.0094 0.2017    0.0803        NaN                NaN          NaN
+      5    pooled 5897 0.0489  0.0099 0.0858    0.0767     0.3896             0.0447        False
+      5 innings 1 3071 0.0374 -0.0027 0.0763    0.0685        NaN                NaN          NaN
+      5 innings 2 2826 0.0635 -0.0126 0.1354    0.0831        NaN                NaN          NaN
+RQ2: {"H2a": {"disagree_inn1": 0.11065380203764928, "disagree_inn2": 0.23490475840258881, "diff": 0.12425095636493953, "lo": 0.10649719082947477, "hi": 0.14152476063701097}, "H2b": {"rho_model": 0.08149793147656649, "rho_scoreboard": 0.03208452233153153, "diff": 0.04941340914503496, "lo": 0.026353942062116414, "hi": 0.07262478909965711}}
+  female fold 2022 log-loss 1.4006
+  female fold 2023 log-loss 1.4395
+  female fold 2024 log-loss 1.4066
+  female fold 2025 log-loss 1.4128
+  female 2026 log-loss 1.4283
+female: version 2 uses 91 features
+win-prob model on 2026 chases: log-loss 0.4453 (constant 0.7073), AUC 0.873
+ball values: 29871 deliveries, seasons [np.int64(2022), np.int64(2023), np.int64(2024), np.int64(2025), np.int64(2026)]; mean gap by innings {1: 0.0013, 2: -0.0001}
+THESIS (R2 of expected v actual runs by window):
+ innings  window     n  R2_descriptive  R2_forecast  n_forecast
+       1       1 15565           0.032        0.024       15565
+       1       5  3055           0.140        0.020        3055
+       1      10  1504           0.210        0.015        1504
+       1      20   747           0.298       -0.024         747
+       1      50   294           0.351        0.039         294
+       1     100   143           0.358       -0.071         143
+       2       1 14306           0.025        0.018       14306
+       2       5  2799           0.100       -0.006        2799
+       2      10  1374           0.142       -0.026        1374
+       2      20   666           0.187       -0.022         666
+       2      50   234           0.226       -0.074         234
+       2     100    84           0.278        0.129          68
+RQ1 (persistence):
+ window    sample    n  slope      lo     hi  spearman  shuffle_p  shuffle_null_mean H1_supported
+     10    pooled 2576 0.0607  0.0120 0.1106    0.0330     0.2897             0.0507        False
+     10 innings 1 1353 0.0205 -0.0385 0.0775    0.0203        NaN                NaN          NaN
+     10 innings 2 1223 0.1313  0.0369 0.2391    0.0569        NaN                NaN          NaN
+      5    pooled 5552 0.0365 -0.0051 0.0769    0.0490     0.2418             0.0265        False
+      5 innings 1 2904 0.0223 -0.0153 0.0607    0.0466        NaN                NaN          NaN
+      5 innings 2 2648 0.0576 -0.0303 0.1433    0.0459        NaN                NaN          NaN
+RQ2: {"H2a": {"disagree_inn1": 0.12956335003579098, "disagree_inn2": 0.2438410074773711, "diff": 0.11427765744158014, "lo": 0.09670800446403308, "hi": 0.1322618388039327}, "H2b": {"rho_model": 0.03303781584251429, "rho_scoreboard": -0.006100637607539202, "diff": 0.0391384534500535, "lo": 0.013881804930140443, "hi": 0.06490284018024944}}
+
+gender                                                  result  version1  version2  change
+   Men                          Thesis: R² one ball (1st inns)    0.0353    0.0365  0.0012
+   Men                     Thesis: R² whole innings (1st inns)    0.4043    0.3958 -0.0085
+   Men                     RQ1: team momentum slope (10 balls)    0.0824    0.0859  0.0035
+   Men                 RQ1: shuffle p (streaks real if < 0.05)    0.6004    0.5275 -0.0729
+   Men                        RQ2: scoreboard disagrees, chase    0.2344    0.2349  0.0005
+   Men                     RQ2: scoreboard disagrees, 1st inns    0.1104    0.1107  0.0003
+   Men    RQ2: model beats scoreboard at forecasting (rho gap)    0.0506    0.0494 -0.0012
+   Men                       H5: batter hot hand, excess slope    0.1240    0.1233 -0.0007
+   Men                                  H5: hot hand shuffle p    0.0020    0.0020  0.0000
+   Men                Deep: free hit, next ball (1st inns, SD)    0.3171    0.3137 -0.0034
+   Men                Deep: after a six, next ball (chase, SD)    0.1146    0.1169  0.0023
+   Men Deep: spin minus pace, balls 1–20 (runs saved per ball)   -0.1702   -0.1843 -0.0141
+   Men                      Deep: spin minus pace, balls 41–60    0.0343    0.0020 -0.0323
+ Women                          Thesis: R² one ball (1st inns)    0.0319    0.0317 -0.0002
+ Women                     Thesis: R² whole innings (1st inns)    0.3615    0.3576 -0.0039
+ Women                     RQ1: team momentum slope (10 balls)    0.0571    0.0607  0.0036
+ Women                 RQ1: shuffle p (streaks real if < 0.05)    0.3726    0.2897 -0.0829
+ Women                        RQ2: scoreboard disagrees, chase    0.2344    0.2438  0.0094
+ Women                     RQ2: scoreboard disagrees, 1st inns    0.1284    0.1296  0.0011
+ Women    RQ2: model beats scoreboard at forecasting (rho gap)    0.0377    0.0391  0.0014
+ Women                       H5: batter hot hand, excess slope    0.0697    0.0678 -0.0019
+ Women                                  H5: hot hand shuffle p    0.0020    0.0020  0.0000
+ Women                Deep: free hit, next ball (1st inns, SD)    0.3480    0.3287 -0.0194
+ Women                Deep: after a six, next ball (chase, SD)    0.0337    0.0293 -0.0044
+ Women Deep: spin minus pace, balls 1–20 (runs saved per ball)   -0.0462   -0.0657 -0.0195
+ Women                      Deep: spin minus pace, balls 41–60    0.0498    0.0253 -0.0245

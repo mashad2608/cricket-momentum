@@ -1,0 +1,424 @@
+{
+ "male": {
+  "best_cv": "LightGBM + random forest (locked model)",
+  "cv": {
+   "LightGBM + random forest (locked model)": {
+    "logloss": 1.494938,
+    "brier": 0.714877,
+    "R2_runs": 0.028241,
+    "AUC_wicket": 0.601518,
+    "AUC_boundary": 0.612236,
+    "vs_locked": 0.0,
+    "vs_locked_lo": 0.0,
+    "vs_locked_hi": 0.0
+   },
+   "Random forest": {
+    "logloss": 1.495359,
+    "brier": 0.71512,
+    "R2_runs": 0.028365,
+    "AUC_wicket": 0.600752,
+    "AUC_boundary": 0.612692,
+    "vs_locked": 0.000421,
+    "vs_locked_lo": -0.000183,
+    "vs_locked_hi": 0.000971
+   },
+   "LightGBM + XGBoost + random forest": {
+    "logloss": 1.495496,
+    "brier": 0.71509,
+    "R2_runs": 0.027927,
+    "AUC_wicket": 0.600649,
+    "AUC_boundary": 0.611656,
+    "vs_locked": 0.000558,
+    "vs_locked_lo": 0.000251,
+    "vs_locked_hi": 0.000858
+   },
+   "All seven models": {
+    "logloss": 1.495641,
+    "brier": 0.715099,
+    "R2_runs": 0.028948,
+    "AUC_wicket": 0.602623,
+    "AUC_boundary": 0.611256,
+    "vs_locked": 0.000702,
+    "vs_locked_lo": -0.000278,
+    "vs_locked_hi": 0.001744
+   },
+   "All tree models": {
+    "logloss": 1.495878,
+    "brier": 0.715183,
+    "R2_runs": 0.028546,
+    "AUC_wicket": 0.60113,
+    "AUC_boundary": 0.612619,
+    "vs_locked": 0.000939,
+    "vs_locked_lo": 0.00036,
+    "vs_locked_hi": 0.001575
+   },
+   "LightGBM": {
+    "logloss": 1.496808,
+    "brier": 0.715324,
+    "R2_runs": 0.027223,
+    "AUC_wicket": 0.596758,
+    "AUC_boundary": 0.609187,
+    "vs_locked": 0.00187,
+    "vs_locked_lo": 0.001299,
+    "vs_locked_hi": 0.002532
+   },
+   "Extra trees": {
+    "logloss": 1.496854,
+    "brier": 0.715298,
+    "R2_runs": 0.027442,
+    "AUC_wicket": 0.594996,
+    "AUC_boundary": 0.610696,
+    "vs_locked": 0.001916,
+    "vs_locked_lo": 0.000924,
+    "vs_locked_hi": 0.002903
+   },
+   "LightGBM + XGBoost": {
+    "logloss": 1.497011,
+    "brier": 0.715526,
+    "R2_runs": 0.027135,
+    "AUC_wicket": 0.597033,
+    "AUC_boundary": 0.609468,
+    "vs_locked": 0.002073,
+    "vs_locked_lo": 0.001427,
+    "vs_locked_hi": 0.002798
+   },
+   "XGBoost": {
+    "logloss": 1.498035,
+    "brier": 0.715976,
+    "R2_runs": 0.026785,
+    "AUC_wicket": 0.596427,
+    "AUC_boundary": 0.609052,
+    "vs_locked": 0.003097,
+    "vs_locked_lo": 0.002137,
+    "vs_locked_hi": 0.004045
+   },
+   "Logistic regression": {
+    "logloss": 1.509228,
+    "brier": 0.71868,
+    "R2_runs": 0.019953,
+    "AUC_wicket": 0.586086,
+    "AUC_boundary": 0.601983,
+    "vs_locked": 0.01429,
+    "vs_locked_lo": 0.010493,
+    "vs_locked_hi": 0.018448
+   },
+   "HistGradientBoosting": {
+    "logloss": 1.514299,
+    "brier": 0.721212,
+    "R2_runs": 0.023088,
+    "AUC_wicket": 0.587144,
+    "AUC_boundary": 0.601493,
+    "vs_locked": 0.019361,
+    "vs_locked_lo": 0.016067,
+    "vs_locked_hi": 0.022885
+   },
+   "Neural network (MLP)": {
+    "logloss": 1.528977,
+    "brier": 0.726948,
+    "R2_runs": 0.015875,
+    "AUC_wicket": 0.583481,
+    "AUC_boundary": 0.590083,
+    "vs_locked": 0.034039,
+    "vs_locked_lo": 0.029212,
+    "vs_locked_hi": 0.039151
+   }
+  },
+  "test2026": {
+   "LightGBM + random forest (locked model)": {
+    "logloss": 1.491489,
+    "brier": 0.714343,
+    "R2_runs": 0.028027,
+    "AUC_wicket": 0.618662,
+    "AUC_boundary": 0.60967
+   },
+   "Random forest": {
+    "logloss": 1.492843,
+    "brier": 0.714908,
+    "R2_runs": 0.026314,
+    "AUC_wicket": 0.620961,
+    "AUC_boundary": 0.60434
+   },
+   "LightGBM + XGBoost + random forest": {
+    "logloss": 1.491392,
+    "brier": 0.71428,
+    "R2_runs": 0.028203,
+    "AUC_wicket": 0.616077,
+    "AUC_boundary": 0.610586
+   },
+   "All seven models": {
+    "logloss": 1.491154,
+    "brier": 0.714457,
+    "R2_runs": 0.028895,
+    "AUC_wicket": 0.618308,
+    "AUC_boundary": 0.610915
+   },
+   "All tree models": {
+    "logloss": 1.491523,
+    "brier": 0.714342,
+    "R2_runs": 0.027973,
+    "AUC_wicket": 0.615471,
+    "AUC_boundary": 0.609116
+   },
+   "LightGBM": {
+    "logloss": 1.492586,
+    "brier": 0.714536,
+    "R2_runs": 0.028503,
+    "AUC_wicket": 0.613971,
+    "AUC_boundary": 0.610695
+   },
+   "Extra trees": {
+    "logloss": 1.49478,
+    "brier": 0.715468,
+    "R2_runs": 0.025375,
+    "AUC_wicket": 0.61627,
+    "AUC_boundary": 0.602288
+   },
+   "LightGBM + XGBoost": {
+    "logloss": 1.492198,
+    "brier": 0.714426,
+    "R2_runs": 0.028416,
+    "AUC_wicket": 0.612397,
+    "AUC_boundary": 0.611146
+   },
+   "XGBoost": {
+    "logloss": 1.492315,
+    "brier": 0.714475,
+    "R2_runs": 0.028102,
+    "AUC_wicket": 0.610282,
+    "AUC_boundary": 0.611005
+   },
+   "Logistic regression": {
+    "logloss": 1.496252,
+    "brier": 0.716349,
+    "R2_runs": 0.025613,
+    "AUC_wicket": 0.608303,
+    "AUC_boundary": 0.610156
+   },
+   "HistGradientBoosting": {
+    "logloss": 1.498687,
+    "brier": 0.716426,
+    "R2_runs": 0.024873,
+    "AUC_wicket": 0.608166,
+    "AUC_boundary": 0.598803
+   },
+   "Neural network (MLP)": {
+    "logloss": 1.515321,
+    "brier": 0.723495,
+    "R2_runs": 0.015855,
+    "AUC_wicket": 0.596561,
+    "AUC_boundary": 0.598224
+   }
+  }
+ },
+ "female": {
+  "best_cv": "All seven models",
+  "cv": {
+   "All seven models": {
+    "logloss": 1.414771,
+    "brier": 0.695538,
+    "R2_runs": 0.02816,
+    "AUC_wicket": 0.619072,
+    "AUC_boundary": 0.61044,
+    "vs_locked": -0.00036,
+    "vs_locked_lo": -0.001227,
+    "vs_locked_hi": 0.000435
+   },
+   "LightGBM + random forest (locked model)": {
+    "logloss": 1.415131,
+    "brier": 0.695444,
+    "R2_runs": 0.027416,
+    "AUC_wicket": 0.616935,
+    "AUC_boundary": 0.61103,
+    "vs_locked": 0.0,
+    "vs_locked_lo": 0.0,
+    "vs_locked_hi": 0.0
+   },
+   "LightGBM + XGBoost + random forest": {
+    "logloss": 1.415266,
+    "brier": 0.695468,
+    "R2_runs": 0.027645,
+    "AUC_wicket": 0.616562,
+    "AUC_boundary": 0.61112,
+    "vs_locked": 0.000135,
+    "vs_locked_lo": -0.000205,
+    "vs_locked_hi": 0.000468
+   },
+   "All tree models": {
+    "logloss": 1.41537,
+    "brier": 0.695572,
+    "R2_runs": 0.028098,
+    "AUC_wicket": 0.614707,
+    "AUC_boundary": 0.611155,
+    "vs_locked": 0.000239,
+    "vs_locked_lo": -0.000331,
+    "vs_locked_hi": 0.000852
+   },
+   "LightGBM": {
+    "logloss": 1.416029,
+    "brier": 0.695426,
+    "R2_runs": 0.027611,
+    "AUC_wicket": 0.61655,
+    "AUC_boundary": 0.609423,
+    "vs_locked": 0.000898,
+    "vs_locked_lo": 0.000225,
+    "vs_locked_hi": 0.001601
+   },
+   "LightGBM + XGBoost": {
+    "logloss": 1.416183,
+    "brier": 0.695575,
+    "R2_runs": 0.027683,
+    "AUC_wicket": 0.615617,
+    "AUC_boundary": 0.609662,
+    "vs_locked": 0.001052,
+    "vs_locked_lo": 0.000313,
+    "vs_locked_hi": 0.001753
+   },
+   "Random forest": {
+    "logloss": 1.416635,
+    "brier": 0.696203,
+    "R2_runs": 0.026185,
+    "AUC_wicket": 0.610208,
+    "AUC_boundary": 0.609351,
+    "vs_locked": 0.001504,
+    "vs_locked_lo": 0.00081,
+    "vs_locked_hi": 0.00218
+   },
+   "XGBoost": {
+    "logloss": 1.417324,
+    "brier": 0.696065,
+    "R2_runs": 0.027343,
+    "AUC_wicket": 0.61322,
+    "AUC_boundary": 0.608413,
+    "vs_locked": 0.002193,
+    "vs_locked_lo": 0.001188,
+    "vs_locked_hi": 0.003189
+   },
+   "Extra trees": {
+    "logloss": 1.418615,
+    "brier": 0.696876,
+    "R2_runs": 0.025523,
+    "AUC_wicket": 0.607355,
+    "AUC_boundary": 0.604441,
+    "vs_locked": 0.003484,
+    "vs_locked_lo": 0.002221,
+    "vs_locked_hi": 0.00474
+   },
+   "Logistic regression": {
+    "logloss": 1.430149,
+    "brier": 0.699358,
+    "R2_runs": 0.022973,
+    "AUC_wicket": 0.610049,
+    "AUC_boundary": 0.59394,
+    "vs_locked": 0.015018,
+    "vs_locked_lo": 0.011534,
+    "vs_locked_hi": 0.018844
+   },
+   "HistGradientBoosting": {
+    "logloss": 1.430411,
+    "brier": 0.700459,
+    "R2_runs": 0.024382,
+    "AUC_wicket": 0.6012,
+    "AUC_boundary": 0.599337,
+    "vs_locked": 0.01528,
+    "vs_locked_lo": 0.012512,
+    "vs_locked_hi": 0.01826
+   },
+   "Neural network (MLP)": {
+    "logloss": 1.445978,
+    "brier": 0.708986,
+    "R2_runs": 0.014673,
+    "AUC_wicket": 0.603554,
+    "AUC_boundary": 0.587401,
+    "vs_locked": 0.030847,
+    "vs_locked_lo": 0.024636,
+    "vs_locked_hi": 0.037576
+   }
+  },
+  "test2026": {
+   "All seven models": {
+    "logloss": 1.431151,
+    "brier": 0.699141,
+    "R2_runs": 0.033801,
+    "AUC_wicket": 0.619107,
+    "AUC_boundary": 0.623028
+   },
+   "LightGBM + random forest (locked model)": {
+    "logloss": 1.431102,
+    "brier": 0.699148,
+    "R2_runs": 0.033641,
+    "AUC_wicket": 0.615984,
+    "AUC_boundary": 0.626031
+   },
+   "LightGBM + XGBoost + random forest": {
+    "logloss": 1.431185,
+    "brier": 0.699099,
+    "R2_runs": 0.033987,
+    "AUC_wicket": 0.617818,
+    "AUC_boundary": 0.626091
+   },
+   "All tree models": {
+    "logloss": 1.431144,
+    "brier": 0.699192,
+    "R2_runs": 0.034438,
+    "AUC_wicket": 0.620259,
+    "AUC_boundary": 0.625478
+   },
+   "LightGBM": {
+    "logloss": 1.43197,
+    "brier": 0.699189,
+    "R2_runs": 0.034259,
+    "AUC_wicket": 0.617591,
+    "AUC_boundary": 0.625918
+   },
+   "LightGBM + XGBoost": {
+    "logloss": 1.432028,
+    "brier": 0.699201,
+    "R2_runs": 0.034271,
+    "AUC_wicket": 0.618815,
+    "AUC_boundary": 0.62554
+   },
+   "Random forest": {
+    "logloss": 1.432326,
+    "brier": 0.699811,
+    "R2_runs": 0.032059,
+    "AUC_wicket": 0.610445,
+    "AUC_boundary": 0.622886
+   },
+   "XGBoost": {
+    "logloss": 1.432738,
+    "brier": 0.699437,
+    "R2_runs": 0.034018,
+    "AUC_wicket": 0.618814,
+    "AUC_boundary": 0.624212
+   },
+   "Extra trees": {
+    "logloss": 1.434591,
+    "brier": 0.70068,
+    "R2_runs": 0.032122,
+    "AUC_wicket": 0.614828,
+    "AUC_boundary": 0.618781
+   },
+   "Logistic regression": {
+    "logloss": 1.436474,
+    "brier": 0.700553,
+    "R2_runs": 0.030823,
+    "AUC_wicket": 0.599326,
+    "AUC_boundary": 0.614423
+   },
+   "HistGradientBoosting": {
+    "logloss": 1.436566,
+    "brier": 0.700936,
+    "R2_runs": 0.034035,
+    "AUC_wicket": 0.612784,
+    "AUC_boundary": 0.615574
+   },
+   "Neural network (MLP)": {
+    "logloss": 1.450693,
+    "brier": 0.705892,
+    "R2_runs": 0.022399,
+    "AUC_wicket": 0.603436,
+    "AUC_boundary": 0.601671
+   }
+  }
+ }
+}

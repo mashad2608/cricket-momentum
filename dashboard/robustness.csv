@@ -1,0 +1,27 @@
+gender,result,version1,version2,change
+Men,Thesis: R² one ball (1st inns),0.0353,0.0365,0.0012
+Men,Thesis: R² whole innings (1st inns),0.4043,0.3958,-0.0085
+Men,RQ1: team momentum slope (10 balls),0.0824,0.0859,0.0035
+Men,RQ1: shuffle p (streaks real if < 0.05),0.6004,0.5275,-0.0729
+Men,"RQ2: scoreboard disagrees, chase",0.2344,0.2349,0.0005
+Men,"RQ2: scoreboard disagrees, 1st inns",0.1104,0.1107,0.0003
+Men,RQ2: model beats scoreboard at forecasting (rho gap),0.0506,0.0494,-0.0012
+Men,"H5: batter hot hand, excess slope",0.124,0.1233,-0.0007
+Men,H5: hot hand shuffle p,0.002,0.002,0.0
+Men,"Deep: free hit, next ball (1st inns, SD)",0.3171,0.3137,-0.0034
+Men,"Deep: after a six, next ball (chase, SD)",0.1146,0.1169,0.0023
+Men,"Deep: spin minus pace, balls 1–20 (runs saved per ball)",-0.1702,-0.1843,-0.0141
+Men,"Deep: spin minus pace, balls 41–60",0.0343,0.002,-0.0323
+Women,Thesis: R² one ball (1st inns),0.0319,0.0317,-0.0002
+Women,Thesis: R² whole innings (1st inns),0.3615,0.3576,-0.0039
+Women,RQ1: team momentum slope (10 balls),0.0571,0.0607,0.0036
+Women,RQ1: shuffle p (streaks real if < 0.05),0.3726,0.2897,-0.0829
+Women,"RQ2: scoreboard disagrees, chase",0.2344,0.2438,0.0094
+Women,"RQ2: scoreboard disagrees, 1st inns",0.1284,0.1296,0.0011
+Women,RQ2: model beats scoreboard at forecasting (rho gap),0.0377,0.0391,0.0014
+Women,"H5: batter hot hand, excess slope",0.0697,0.0678,-0.0019
+Women,H5: hot hand shuffle p,0.002,0.002,0.0
+Women,"Deep: free hit, next ball (1st inns, SD)",0.348,0.3287,-0.0194
+Women,"Deep: after a six, next ball (chase, SD)",0.0337,0.0293,-0.0044
+Women,"Deep: spin minus pace, balls 1–20 (runs saved per ball)",-0.0462,-0.0657,-0.0195
+Women,"Deep: spin minus pace, balls 41–60",0.0498,0.0253,-0.0245

@@ -1,0 +1,25 @@
+gender,innings,window,r2
+Men,1st innings,1,0.0353
+Men,1st innings,5,0.1728
+Men,1st innings,10,0.2489
+Men,1st innings,20,0.3289
+Men,1st innings,50,0.3968
+Men,1st innings,100,0.4043
+Men,Chase,1,0.0203
+Men,Chase,5,0.1086
+Men,Chase,10,0.1666
+Men,Chase,20,0.2149
+Men,Chase,50,0.2422
+Men,Chase,100,0.2546
+Women,1st innings,1,0.0319
+Women,1st innings,5,0.1455
+Women,1st innings,10,0.2187
+Women,1st innings,20,0.3046
+Women,1st innings,50,0.3631
+Women,1st innings,100,0.3615
+Women,Chase,1,0.0254
+Women,Chase,5,0.1062
+Women,Chase,10,0.1528
+Women,Chase,20,0.2061
+Women,Chase,50,0.2437
+Women,Chase,100,0.3217

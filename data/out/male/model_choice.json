@@ -1,0 +1,27 @@
+{
+ "choice": "Average of both",
+ "cv": {
+  "LightGBM (tuned)": 1.4968598769792592,
+  "Random forest (tuned)": 1.4954432175527672,
+  "Average of both": 1.4950039200249658
+ },
+ "best_rf": [
+  60,
+  0.2
+ ],
+ "lgb": {
+  "n_estimators": 3000,
+  "learning_rate": 0.00834789128983259,
+  "num_leaves": 24,
+  "max_depth": 2,
+  "min_child_samples": 180,
+  "subsample": 0.5676392539058726,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.5140034633929633,
+  "reg_lambda": 1.1103234774324615,
+  "min_split_gain": 0.040430248102672366,
+  "random_state": 42,
+  "n_jobs": -1,
+  "verbose": -1
+ }
+}

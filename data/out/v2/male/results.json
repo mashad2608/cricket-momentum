@@ -1,0 +1,197 @@
+{
+ "HT": [
+  {
+   "innings": 1,
+   "window": 1,
+   "n": 16474,
+   "R2_descriptive": 0.036491010121601164,
+   "R2_forecast": 0.023497692139000992,
+   "n_forecast": 16474
+  },
+  {
+   "innings": 1,
+   "window": 5,
+   "n": 3230,
+   "R2_descriptive": 0.16980673126463963,
+   "R2_forecast": 0.026837394939826287,
+   "n_forecast": 3230
+  },
+  {
+   "innings": 1,
+   "window": 10,
+   "n": 1584,
+   "R2_descriptive": 0.24302025256904058,
+   "R2_forecast": 0.04255720897397697,
+   "n_forecast": 1584
+  },
+  {
+   "innings": 1,
+   "window": 20,
+   "n": 789,
+   "R2_descriptive": 0.3198590231500573,
+   "R2_forecast": 0.014861592778917965,
+   "n_forecast": 789
+  },
+  {
+   "innings": 1,
+   "window": 50,
+   "n": 312,
+   "R2_descriptive": 0.3817591376452252,
+   "R2_forecast": 0.04727452587890668,
+   "n_forecast": 312
+  },
+  {
+   "innings": 1,
+   "window": 100,
+   "n": 153,
+   "R2_descriptive": 0.39584990821014976,
+   "R2_forecast": -0.09001351460701423,
+   "n_forecast": 120
+  },
+  {
+   "innings": 2,
+   "window": 1,
+   "n": 15258,
+   "R2_descriptive": 0.020471777966426186,
+   "R2_forecast": 0.002239903300984336,
+   "n_forecast": 15258
+  },
+  {
+   "innings": 2,
+   "window": 5,
+   "n": 2985,
+   "R2_descriptive": 0.10516610195664922,
+   "R2_forecast": -0.02835708811769999,
+   "n_forecast": 2985
+  },
+  {
+   "innings": 2,
+   "window": 10,
+   "n": 1455,
+   "R2_descriptive": 0.15904050696729,
+   "R2_forecast": -0.07120510229112287,
+   "n_forecast": 1455
+  },
+  {
+   "innings": 2,
+   "window": 20,
+   "n": 701,
+   "R2_descriptive": 0.20403443711502833,
+   "R2_forecast": -0.0822621647091295,
+   "n_forecast": 701
+  },
+  {
+   "innings": 2,
+   "window": 50,
+   "n": 240,
+   "R2_descriptive": 0.24097188868196184,
+   "R2_forecast": -0.02060162848143321,
+   "n_forecast": 240
+  },
+  {
+   "innings": 2,
+   "window": 100,
+   "n": 82,
+   "R2_descriptive": 0.2452292572926541,
+   "R2_forecast": 0.2733083924055181,
+   "n_forecast": 65
+  }
+ ],
+ "RQ1": [
+  {
+   "window": 10,
+   "sample": "pooled",
+   "n": 2721,
+   "slope": 0.08586271443773343,
+   "lo": 0.036259580799491535,
+   "hi": 0.13481472858138796,
+   "spearman": 0.08149793147656649,
+   "shuffle_p": 0.5274725274725275,
+   "shuffle_null_mean": 0.08730235203577971,
+   "H1_supported": false
+  },
+  {
+   "window": 10,
+   "sample": "innings 1",
+   "n": 1425,
+   "slope": 0.07190970814716409,
+   "lo": 0.01686813744462103,
+   "hi": 0.12725048396753694,
+   "spearman": 0.07988652489916505,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  },
+  {
+   "window": 10,
+   "sample": "innings 2",
+   "n": 1296,
+   "slope": 0.10725767537514178,
+   "lo": 0.009392649615422966,
+   "hi": 0.2016660273992476,
+   "spearman": 0.08026019190244325,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  },
+  {
+   "window": 5,
+   "sample": "pooled",
+   "n": 5897,
+   "slope": 0.0489073078290511,
+   "lo": 0.009854228939256946,
+   "hi": 0.08583957071542209,
+   "spearman": 0.07670617998061666,
+   "shuffle_p": 0.38961038961038963,
+   "shuffle_null_mean": 0.04474306348315983,
+   "H1_supported": false
+  },
+  {
+   "window": 5,
+   "sample": "innings 1",
+   "n": 3071,
+   "slope": 0.03736013372215969,
+   "lo": -0.0026663957985557825,
+   "hi": 0.07634257412609545,
+   "spearman": 0.06852260688475356,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  },
+  {
+   "window": 5,
+   "sample": "innings 2",
+   "n": 2826,
+   "slope": 0.06349766795210487,
+   "lo": -0.012602240322489602,
+   "hi": 0.13535637496717534,
+   "spearman": 0.0830601330024658,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  }
+ ],
+ "RQ2": {
+  "H2a": {
+   "disagree_inn1": 0.11065380203764928,
+   "disagree_inn2": 0.23490475840258881,
+   "diff": 0.12425095636493953,
+   "lo": 0.10649719082947477,
+   "hi": 0.14152476063701097
+  },
+  "H2b": {
+   "rho_model": 0.08149793147656649,
+   "rho_scoreboard": 0.03208452233153153,
+   "diff": 0.04941340914503496,
+   "lo": 0.026353942062116414,
+   "hi": 0.07262478909965711
+  }
+ },
+ "RQ3": {
+  "skipped": "not rerun in the sensitivity check"
+ },
+ "SHAP": {
+  "skipped": true
+ },
+ "hot_cut": 1.502856508073578
+}

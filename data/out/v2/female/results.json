@@ -1,0 +1,197 @@
+{
+ "HT": [
+  {
+   "innings": 1,
+   "window": 1,
+   "n": 15565,
+   "R2_descriptive": 0.031673686782730304,
+   "R2_forecast": 0.024192510402100575,
+   "n_forecast": 15565
+  },
+  {
+   "innings": 1,
+   "window": 5,
+   "n": 3055,
+   "R2_descriptive": 0.13957710707239945,
+   "R2_forecast": 0.02037097179862246,
+   "n_forecast": 3055
+  },
+  {
+   "innings": 1,
+   "window": 10,
+   "n": 1504,
+   "R2_descriptive": 0.2100812865918542,
+   "R2_forecast": 0.014627552190386028,
+   "n_forecast": 1504
+  },
+  {
+   "innings": 1,
+   "window": 20,
+   "n": 747,
+   "R2_descriptive": 0.2983554498764891,
+   "R2_forecast": -0.0243170717186747,
+   "n_forecast": 747
+  },
+  {
+   "innings": 1,
+   "window": 50,
+   "n": 294,
+   "R2_descriptive": 0.3509990779963196,
+   "R2_forecast": 0.03900954102076726,
+   "n_forecast": 294
+  },
+  {
+   "innings": 1,
+   "window": 100,
+   "n": 143,
+   "R2_descriptive": 0.35756637206636044,
+   "R2_forecast": -0.07069685792765057,
+   "n_forecast": 143
+  },
+  {
+   "innings": 2,
+   "window": 1,
+   "n": 14306,
+   "R2_descriptive": 0.025338573261544095,
+   "R2_forecast": 0.01788741705002439,
+   "n_forecast": 14306
+  },
+  {
+   "innings": 2,
+   "window": 5,
+   "n": 2799,
+   "R2_descriptive": 0.10035152158523841,
+   "R2_forecast": -0.0063592754024432985,
+   "n_forecast": 2799
+  },
+  {
+   "innings": 2,
+   "window": 10,
+   "n": 1374,
+   "R2_descriptive": 0.1418114698818299,
+   "R2_forecast": -0.025738643946628947,
+   "n_forecast": 1374
+  },
+  {
+   "innings": 2,
+   "window": 20,
+   "n": 666,
+   "R2_descriptive": 0.18657823734145595,
+   "R2_forecast": -0.022094102601667,
+   "n_forecast": 666
+  },
+  {
+   "innings": 2,
+   "window": 50,
+   "n": 234,
+   "R2_descriptive": 0.22630672320252143,
+   "R2_forecast": -0.07428156582010681,
+   "n_forecast": 234
+  },
+  {
+   "innings": 2,
+   "window": 100,
+   "n": 84,
+   "R2_descriptive": 0.27783364488982076,
+   "R2_forecast": 0.1293255429508141,
+   "n_forecast": 68
+  }
+ ],
+ "RQ1": [
+  {
+   "window": 10,
+   "sample": "pooled",
+   "n": 2576,
+   "slope": 0.06069570330251407,
+   "lo": 0.011969667498207184,
+   "hi": 0.11056452739292433,
+   "spearman": 0.03303781584251429,
+   "shuffle_p": 0.2897102897102897,
+   "shuffle_null_mean": 0.050677027912596984,
+   "H1_supported": false
+  },
+  {
+   "window": 10,
+   "sample": "innings 1",
+   "n": 1353,
+   "slope": 0.020490999330045164,
+   "lo": -0.038500900682209925,
+   "hi": 0.07750332539587793,
+   "spearman": 0.02026874359148131,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  },
+  {
+   "window": 10,
+   "sample": "innings 2",
+   "n": 1223,
+   "slope": 0.13128646472669597,
+   "lo": 0.036889367738278604,
+   "hi": 0.2390793456586059,
+   "spearman": 0.056946208968309375,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  },
+  {
+   "window": 5,
+   "sample": "pooled",
+   "n": 5552,
+   "slope": 0.03648136787362066,
+   "lo": -0.0051180973603223,
+   "hi": 0.07693725125199329,
+   "spearman": 0.04898625453481759,
+   "shuffle_p": 0.24175824175824176,
+   "shuffle_null_mean": 0.02645955155337881,
+   "H1_supported": false
+  },
+  {
+   "window": 5,
+   "sample": "innings 1",
+   "n": 2904,
+   "slope": 0.02230254910064215,
+   "lo": -0.015308753889071528,
+   "hi": 0.06067595022673744,
+   "spearman": 0.04663471211382708,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  },
+  {
+   "window": 5,
+   "sample": "innings 2",
+   "n": 2648,
+   "slope": 0.057570676956097716,
+   "lo": -0.03028502450127514,
+   "hi": 0.143284675592457,
+   "spearman": 0.04587674666678668,
+   "shuffle_p": NaN,
+   "shuffle_null_mean": NaN,
+   "H1_supported": NaN
+  }
+ ],
+ "RQ2": {
+  "H2a": {
+   "disagree_inn1": 0.12956335003579098,
+   "disagree_inn2": 0.2438410074773711,
+   "diff": 0.11427765744158014,
+   "lo": 0.09670800446403308,
+   "hi": 0.1322618388039327
+  },
+  "H2b": {
+   "rho_model": 0.03303781584251429,
+   "rho_scoreboard": -0.006100637607539202,
+   "diff": 0.0391384534500535,
+   "lo": 0.013881804930140443,
+   "hi": 0.06490284018024944
+  }
+ },
+ "RQ3": {
+  "skipped": "not rerun in the sensitivity check"
+ },
+ "SHAP": {
+  "skipped": true
+ },
+ "hot_cut": 1.502856508073578
+}
